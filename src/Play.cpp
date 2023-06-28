@@ -19,8 +19,8 @@ void Play::Start()      //static method
         {
             if(INPUT.length() != 1)
             {    
-                throw "bad input";
-                exit(0);
+                throw "bad input\n";
+                break;
             }
         }
         catch(const char* err)
@@ -32,6 +32,8 @@ void Play::Start()      //static method
         switch(input_number)
         {
             case 0:
+                system("clear");
+                flag = false;
                 break;
             case 1:
                 std::unique_ptr<Displayer> display(new Displayer(200));
@@ -42,11 +44,11 @@ void Play::Start()      //static method
                 // display->ClearList();
                 
                 // Play::PlayAudio(song, 20);
-                std::cout << "playing music" << std::endl;
+                std::cout << "playing music\n";
                 system("pause");
                 system("clear");
 
-               display->ClearList();
+                display->ClearList();
                 break;
         }
 
