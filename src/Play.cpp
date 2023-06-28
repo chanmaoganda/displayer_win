@@ -2,18 +2,34 @@
 
 void Play::Start()      //static method
 {
-    size_t input = 1;
-
+    bool flag = true;
+    size_t input_number;
+    std::string INPUT;
     Play::Start_UI();
 
     Sleep(1500);
     system("clear");
 
-    while(input)
+    while(flag)
     {
         Play::Menu_UI();
-        std::cin >> input;
-        switch(input)
+        std::getline(std::cin, INPUT);
+
+        try
+        {
+            if(INPUT.length() != 1)
+            {    
+                throw "bad input";
+                exit(0);
+            }
+        }
+        catch(const char* err)
+        {
+            std::cerr << err << '\n';
+        }
+        input_number = INPUT[0] - '0';
+        
+        switch(input_number)
         {
             case 0:
                 break;

@@ -20,7 +20,7 @@ public:
 
     static void Start_UI();
 
-    
+    static void EventHandler();
 private:
     Play() = delete;
 
