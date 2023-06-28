@@ -116,6 +116,19 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named play
+
+# Build rule for target.
+play: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 play
+.PHONY : play
+
+# fast build rule for target.
+play/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\play.dir\build.make CMakeFiles/play.dir/build
+.PHONY : play/fast
+
+#=============================================================================
 # Target rules for targets named displayer
 
 # Build rule for target.
@@ -157,7 +170,7 @@ src/Displayer.obj: src/Displayer.cpp.obj
 
 # target to build an object file
 src/Displayer.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\displayer.dir\build.make CMakeFiles/displayer.dir/src/Displayer.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\play.dir\build.make CMakeFiles/play.dir/src/Displayer.cpp.obj
 .PHONY : src/Displayer.cpp.obj
 
 src/Displayer.i: src/Displayer.cpp.i
@@ -165,7 +178,7 @@ src/Displayer.i: src/Displayer.cpp.i
 
 # target to preprocess a source file
 src/Displayer.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\displayer.dir\build.make CMakeFiles/displayer.dir/src/Displayer.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\play.dir\build.make CMakeFiles/play.dir/src/Displayer.cpp.i
 .PHONY : src/Displayer.cpp.i
 
 src/Displayer.s: src/Displayer.cpp.s
@@ -173,7 +186,7 @@ src/Displayer.s: src/Displayer.cpp.s
 
 # target to generate assembly for a file
 src/Displayer.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\displayer.dir\build.make CMakeFiles/displayer.dir/src/Displayer.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\play.dir\build.make CMakeFiles/play.dir/src/Displayer.cpp.s
 .PHONY : src/Displayer.cpp.s
 
 src/Mode.obj: src/Mode.cpp.obj
@@ -181,7 +194,7 @@ src/Mode.obj: src/Mode.cpp.obj
 
 # target to build an object file
 src/Mode.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\displayer.dir\build.make CMakeFiles/displayer.dir/src/Mode.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\play.dir\build.make CMakeFiles/play.dir/src/Mode.cpp.obj
 .PHONY : src/Mode.cpp.obj
 
 src/Mode.i: src/Mode.cpp.i
@@ -189,7 +202,7 @@ src/Mode.i: src/Mode.cpp.i
 
 # target to preprocess a source file
 src/Mode.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\displayer.dir\build.make CMakeFiles/displayer.dir/src/Mode.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\play.dir\build.make CMakeFiles/play.dir/src/Mode.cpp.i
 .PHONY : src/Mode.cpp.i
 
 src/Mode.s: src/Mode.cpp.s
@@ -197,7 +210,7 @@ src/Mode.s: src/Mode.cpp.s
 
 # target to generate assembly for a file
 src/Mode.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\displayer.dir\build.make CMakeFiles/displayer.dir/src/Mode.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\play.dir\build.make CMakeFiles/play.dir/src/Mode.cpp.s
 .PHONY : src/Mode.cpp.s
 
 src/Play.obj: src/Play.cpp.obj
@@ -205,7 +218,7 @@ src/Play.obj: src/Play.cpp.obj
 
 # target to build an object file
 src/Play.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\displayer.dir\build.make CMakeFiles/displayer.dir/src/Play.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\play.dir\build.make CMakeFiles/play.dir/src/Play.cpp.obj
 .PHONY : src/Play.cpp.obj
 
 src/Play.i: src/Play.cpp.i
@@ -213,7 +226,7 @@ src/Play.i: src/Play.cpp.i
 
 # target to preprocess a source file
 src/Play.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\displayer.dir\build.make CMakeFiles/displayer.dir/src/Play.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\play.dir\build.make CMakeFiles/play.dir/src/Play.cpp.i
 .PHONY : src/Play.cpp.i
 
 src/Play.s: src/Play.cpp.s
@@ -221,7 +234,7 @@ src/Play.s: src/Play.cpp.s
 
 # target to generate assembly for a file
 src/Play.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\displayer.dir\build.make CMakeFiles/displayer.dir/src/Play.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\play.dir\build.make CMakeFiles/play.dir/src/Play.cpp.s
 .PHONY : src/Play.cpp.s
 
 src/songs/PopSongs.obj: src/songs/PopSongs.cpp.obj
@@ -229,7 +242,7 @@ src/songs/PopSongs.obj: src/songs/PopSongs.cpp.obj
 
 # target to build an object file
 src/songs/PopSongs.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\displayer.dir\build.make CMakeFiles/displayer.dir/src/songs/PopSongs.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\play.dir\build.make CMakeFiles/play.dir/src/songs/PopSongs.cpp.obj
 .PHONY : src/songs/PopSongs.cpp.obj
 
 src/songs/PopSongs.i: src/songs/PopSongs.cpp.i
@@ -237,7 +250,7 @@ src/songs/PopSongs.i: src/songs/PopSongs.cpp.i
 
 # target to preprocess a source file
 src/songs/PopSongs.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\displayer.dir\build.make CMakeFiles/displayer.dir/src/songs/PopSongs.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\play.dir\build.make CMakeFiles/play.dir/src/songs/PopSongs.cpp.i
 .PHONY : src/songs/PopSongs.cpp.i
 
 src/songs/PopSongs.s: src/songs/PopSongs.cpp.s
@@ -245,7 +258,7 @@ src/songs/PopSongs.s: src/songs/PopSongs.cpp.s
 
 # target to generate assembly for a file
 src/songs/PopSongs.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\displayer.dir\build.make CMakeFiles/displayer.dir/src/songs/PopSongs.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\play.dir\build.make CMakeFiles/play.dir/src/songs/PopSongs.cpp.s
 .PHONY : src/songs/PopSongs.cpp.s
 
 src/songs/Song.obj: src/songs/Song.cpp.obj
@@ -253,7 +266,7 @@ src/songs/Song.obj: src/songs/Song.cpp.obj
 
 # target to build an object file
 src/songs/Song.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\displayer.dir\build.make CMakeFiles/displayer.dir/src/songs/Song.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\play.dir\build.make CMakeFiles/play.dir/src/songs/Song.cpp.obj
 .PHONY : src/songs/Song.cpp.obj
 
 src/songs/Song.i: src/songs/Song.cpp.i
@@ -261,7 +274,7 @@ src/songs/Song.i: src/songs/Song.cpp.i
 
 # target to preprocess a source file
 src/songs/Song.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\displayer.dir\build.make CMakeFiles/displayer.dir/src/songs/Song.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\play.dir\build.make CMakeFiles/play.dir/src/songs/Song.cpp.i
 .PHONY : src/songs/Song.cpp.i
 
 src/songs/Song.s: src/songs/Song.cpp.s
@@ -269,7 +282,7 @@ src/songs/Song.s: src/songs/Song.cpp.s
 
 # target to generate assembly for a file
 src/songs/Song.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\displayer.dir\build.make CMakeFiles/displayer.dir/src/songs/Song.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\play.dir\build.make CMakeFiles/play.dir/src/songs/Song.cpp.s
 .PHONY : src/songs/Song.cpp.s
 
 # Help Target
@@ -281,6 +294,7 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... displayer
+	@echo ... play
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s

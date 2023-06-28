@@ -254,7 +254,7 @@ CMAKE_VERBOSE_MAKEFILE:BOOL=FALSE
 calc_LIB_DEPENDS:STATIC=general;E:/git_codes/practice/external/libwinmm.a;
 
 //Dependencies for the target
-play_LIB_DEPENDS:STATIC=general;E:/git_codes/practice/external/libwinmm.a;
+play_LIB_DEPENDS:STATIC=general;E:/git_codes/practice/external/libwinmm.a;general;E:/git_codes/practice/lib/libplay.dll;
 
 
 ########################

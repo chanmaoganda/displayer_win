@@ -10,10 +10,10 @@ file(REMOVE_RECURSE
   "CMakeFiles/play.dir/src/songs/Song.cpp.obj"
   "CMakeFiles/play.dir/src/songs/Song.cpp.obj.d"
   "CMakeFiles/play.dir/link.d"
-  "E:/git_codes/practice/lib/libplay.dll"
-  "E:/git_codes/practice/lib/libplay.dll.a"
-  "E:/git_codes/practice/lib/libplay.dll.manifest"
-  "E:/git_codes/practice/lib/libplay.pdb"
+  "libplay.dll"
+  "libplay.dll.a"
+  "libplay.dll.manifest"
+  "libplay.pdb"
 )
 
 # Per-language clean rules from dependency scanning.

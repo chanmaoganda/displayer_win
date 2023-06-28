@@ -1355,7 +1355,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "general;E:/git_codes/practice/external/libwinmm.a;"
+			"value" : "general;E:/git_codes/practice/external/libwinmm.a;general;E:/git_codes/practice/lib/libplay.dll;"
 		}
 	],
 	"kind" : "cache",

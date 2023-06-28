@@ -3,6 +3,8 @@ displayer.exe: \
   E:/Avania/caches/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/crtbegin.o \
   CMakeFiles\displayer.dir/objects.a \
   E:/git_codes/practice/external/libwinmm.a \
+  E:/git_codes/practice/lib/libplay.dll \
+  E:/git_codes/practice/lib/libplay.dll \
   E:/Avania/caches/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib/libkernel32.a \
   E:/Avania/caches/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib/libuser32.a \
   E:/Avania/caches/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib/libgdi32.a \
@@ -40,6 +42,10 @@ E:/Avania/caches/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/crtbegin.o:
 CMakeFiles\displayer.dir/objects.a:
 
 E:/git_codes/practice/external/libwinmm.a:
+
+E:/git_codes/practice/lib/libplay.dll:
+
+E:/git_codes/practice/lib/libplay.dll:
 
 E:/Avania/caches/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib/libkernel32.a:
 

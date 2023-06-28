@@ -15,7 +15,8 @@
 					"source" : ".",
 					"targetIndexes" : 
 					[
-						0
+						0,
+						1
 					]
 				}
 			],
@@ -30,7 +31,8 @@
 					"name" : "AUDIO_PLAYER",
 					"targetIndexes" : 
 					[
-						0
+						0,
+						1
 					]
 				}
 			],
@@ -39,8 +41,15 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "displayer::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-displayer-Debug-6d9ec99ac7952518d173.json",
+					"jsonFile" : "target-displayer-Debug-248161728723ee6f8042.json",
 					"name" : "displayer",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "play::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-play-Debug-7c78d054d5e9be875a6f.json",
+					"name" : "play",
 					"projectIndex" : 0
 				}
 			]

@@ -11,10 +11,10 @@ set(CPACK_PROJECT_VERSION ${PROJECT_VERSION})
 
 # set external directory for linking to play audio files
 set(EXTERNAL_DIR ${PROJECT_SOURCE_DIR}/external)
-
+set(LIB_DIR ${PROJECT_SOURCE_DIR}/lib)
 
 # this is to link libwinmm.a to play audio
-link_libraries("${EXTERNAL_DIR}/libwinmm.a")
+link_libraries("${EXTERNAL_DIR}/libwinmm.a" "${LIB_DIR}/libplay.dll")
 # this is the most vital one in this CMakeLists.txt, cause is linking 3rd libraries
 
 # add_libraries()
@@ -25,11 +25,12 @@ include_directories(include)
 include_directories(include/mode_state)
 include_directories(include/songs)
 
-add_executable(displayer ${SRC_SUB} ${SRC_CUR})
+add_library(play SHARED ${SRC_SUB})
+
+add_executable(displayer ${SRC_CUR})
 # target_link_libraries(${PROJECT} libwinmm.a)
 
 # set(LIBRARY_OUTPUT_PATH ../lib)
-# add_library(play SHARED ${SRC_SUB})
 
 
 # 3rd linking directory cannot be found,
