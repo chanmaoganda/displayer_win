@@ -1,0 +1,3 @@
+E:\Avania\caches\cmake\bin\cmake.exe -E rm -f CMakeFiles\displayer.dir/objects.a
+E:\Avania\caches\mingw64\bin\ar.exe qc CMakeFiles\displayer.dir/objects.a @CMakeFiles\displayer.dir\objects1.rsp
+E:\Avania\caches\mingw64\bin\g++.exe -g -Wl,--dependency-file,CMakeFiles\displayer.dir\link.d -Wl,--whole-archive CMakeFiles\displayer.dir/objects.a -Wl,--no-whole-archive -o displayer.exe -Wl,--out-implib,libdisplayer.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\displayer.dir\linkLibs.rsp

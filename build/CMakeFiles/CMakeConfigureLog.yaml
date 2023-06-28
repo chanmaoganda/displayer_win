@@ -1,0 +1,580 @@
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "E:/Avania/caches/cmake/share/cmake-3.27/Modules/CMakeDetermineSystem.cmake:211 (message)"
+      - "CMakeLists.txt:7 (project)"
+    message: |
+      The system is: Windows - 10.0.22621 - AMD64
+  -
+    kind: "message-v1"
+    backtrace:
+      - "E:/Avania/caches/cmake/share/cmake-3.27/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "E:/Avania/caches/cmake/share/cmake-3.27/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "E:/Avania/caches/cmake/share/cmake-3.27/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:7 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler: E:/Avania/caches/mingw64/bin/gcc.exe 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.exe"
+      
+      The C compiler identification is GNU, found in:
+        E:/git_codes/practice/build/CMakeFiles/3.27.0-rc3/CompilerIdC/a.exe
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "E:/Avania/caches/cmake/share/cmake-3.27/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "E:/Avania/caches/cmake/share/cmake-3.27/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "E:/Avania/caches/cmake/share/cmake-3.27/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:7 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler: E:/Avania/caches/mingw64/bin/g++.exe 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.exe"
+      
+      The CXX compiler identification is GNU, found in:
+        E:/git_codes/practice/build/CMakeFiles/3.27.0-rc3/CompilerIdCXX/a.exe
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "E:/Avania/caches/cmake/share/cmake-3.27/Modules/CMakeDetermineCompilerABI.cmake:57 (try_compile)"
+      - "E:/Avania/caches/cmake/share/cmake-3.27/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:7 (project)"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "E:/git_codes/practice/build/CMakeFiles/CMakeScratch/TryCompile-y4stb5"
+      binary: "E:/git_codes/practice/build/CMakeFiles/CMakeScratch/TryCompile-y4stb5"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'E:/git_codes/practice/build/CMakeFiles/CMakeScratch/TryCompile-y4stb5'
+        
+        Run Build Command(s): E:/Avania/caches/cmake/bin/cmake.exe -E env VERBOSE=1 E:/Avania/caches/mingw64/bin/mingw32-make.exe -f Makefile cmTC_82a3d/fast
+        make  -f CMakeFiles\\cmTC_82a3d.dir\\build.make CMakeFiles/cmTC_82a3d.dir/build
+        make[1]: Entering directory 'E:/git_codes/practice/build/CMakeFiles/CMakeScratch/TryCompile-y4stb5'
+        Building C object CMakeFiles/cmTC_82a3d.dir/CMakeCCompilerABI.c.obj
+        E:\\Avania\\caches\\mingw64\\bin\\gcc.exe   -v -o CMakeFiles\\cmTC_82a3d.dir\\CMakeCCompilerABI.c.obj -c E:\\Avania\\caches\\cmake\\share\\cmake-3.27\\Modules\\CMakeCCompilerABI.c
+        Using built-in specs.
+        COLLECT_GCC=E:\\Avania\\caches\\mingw64\\bin\\gcc.exe
+        Target: x86_64-w64-mingw32
+        Configured with: /gcc-13.1.0/configure --prefix=/w64devkit --with-sysroot=/w64devkit/x86_64-w64-mingw32 --with-native-system-header-dir=/include --target=x86_64-w64-mingw32 --host=x86_64-w64-mingw32 --enable-static --disable-shared --with-pic --with-gmp-include=/deps/include --with-gmp-lib=/deps/lib --with-mpc-include=/deps/include --with-mpc-lib=/deps/lib --with-mpfr-include=/deps/include --with-mpfr-lib=/deps/lib --enable-languages=c,c++ --enable-libgomp --enable-threads=posix --enable-version-specific-runtime-libs --disable-dependency-tracking --disable-multilib --disable-nls --disable-win32-registry --enable-mingw-wildcard CFLAGS_FOR_TARGET=-Os CXXFLAGS_FOR_TARGET=-Os LDFLAGS_FOR_TARGET=-s CFLAGS=-Os CXXFLAGS=-Os LDFLAGS=-s
+        Thread model: posix
+        Supported LTO compression algorithms: zlib
+        gcc version 13.1.0 (GCC) 
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_82a3d.dir\\CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles\\cmTC_82a3d.dir\\'
+         E:/Avania/caches/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/13.1.0/cc1.exe -quiet -v -iprefix E:/Avania/caches/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/ -isysroot E:/Avania/caches/mingw64/bin/../x86_64-w64-mingw32 -D_REENTRANT E:\\Avania\\caches\\cmake\\share\\cmake-3.27\\Modules\\CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles\\cmTC_82a3d.dir\\ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=x86-64 -version -o C:\\Users\\Avania\\AppData\\Local\\Temp\\ccSkcEdN.s
+        GNU C17 (GCC) version 13.1.0 (x86_64-w64-mingw32)
+        	compiled by GNU C version 13.1.0, GMP version 6.2.1, MPFR version 4.1.0, MPC version 1.2.1, isl version none
+        GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+        ignoring duplicate directory "E:/Avania/caches/mingw64/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/13.1.0/include"
+        ignoring nonexistent directory "E:/Avania/caches/mingw64/bin/../x86_64-w64-mingw32/w64devkit/lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../include"
+        ignoring duplicate directory "E:/Avania/caches/mingw64/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed"
+        ignoring duplicate directory "E:/Avania/caches/mingw64/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/include"
+        ignoring nonexistent directory "E:/Avania/caches/mingw64/bin/../x86_64-w64-mingw32/mingw/include"
+        #include "..." search starts here:
+        #include <...> search starts here:
+         E:/Avania/caches/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include
+         E:/Avania/caches/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed
+         E:/Avania/caches/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/include
+        End of search list.
+        Compiler executable checksum: bb71682e5f68c22328344a209ef304e3
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_82a3d.dir\\CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles\\cmTC_82a3d.dir\\'
+         as -v -o CMakeFiles\\cmTC_82a3d.dir\\CMakeCCompilerABI.c.obj C:\\Users\\Avania\\AppData\\Local\\Temp\\ccSkcEdN.s
+        GNU assembler version 2.40 (x86_64-w64-mingw32) using BFD version (GNU Binutils) 2.40
+        COMPILER_PATH=E:/Avania/caches/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/13.1.0/;E:/Avania/caches/mingw64/bin/../libexec/gcc/
+        LIBRARY_PATH=E:/Avania/caches/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/;E:/Avania/caches/mingw64/bin/../lib/gcc/;E:/Avania/caches/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib/;E:/Avania/caches/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../lib/;E:/Avania/caches/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/;E:/Avania/caches/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_82a3d.dir\\CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles\\cmTC_82a3d.dir\\CMakeCCompilerABI.c.'
+        Linking C executable cmTC_82a3d.exe
+        E:\\Avania\\caches\\cmake\\bin\\cmake.exe -E cmake_link_script CMakeFiles\\cmTC_82a3d.dir\\link.txt --verbose=1
+        E:\\Avania\\caches\\cmake\\bin\\cmake.exe -E rm -f CMakeFiles\\cmTC_82a3d.dir/objects.a
+        E:\\Avania\\caches\\mingw64\\bin\\ar.exe qc CMakeFiles\\cmTC_82a3d.dir/objects.a @CMakeFiles\\cmTC_82a3d.dir\\objects1.rsp
+        E:\\Avania\\caches\\mingw64\\bin\\gcc.exe  -v -Wl,--dependency-file,CMakeFiles\\cmTC_82a3d.dir\\link.d -Wl,--whole-archive CMakeFiles\\cmTC_82a3d.dir/objects.a -Wl,--no-whole-archive -o cmTC_82a3d.exe -Wl,--out-implib,libcmTC_82a3d.dll.a -Wl,--major-image-version,0,--minor-image-version,0 
+        Using built-in specs.
+        COLLECT_GCC=E:\\Avania\\caches\\mingw64\\bin\\gcc.exe
+        COLLECT_LTO_WRAPPER=E:/Avania/caches/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/13.1.0/lto-wrapper.exe
+        Target: x86_64-w64-mingw32
+        Configured with: /gcc-13.1.0/configure --prefix=/w64devkit --with-sysroot=/w64devkit/x86_64-w64-mingw32 --with-native-system-header-dir=/include --target=x86_64-w64-mingw32 --host=x86_64-w64-mingw32 --enable-static --disable-shared --with-pic --with-gmp-include=/deps/include --with-gmp-lib=/deps/lib --with-mpc-include=/deps/include --with-mpc-lib=/deps/lib --with-mpfr-include=/deps/include --with-mpfr-lib=/deps/lib --enable-languages=c,c++ --enable-libgomp --enable-threads=posix --enable-version-specific-runtime-libs --disable-dependency-tracking --disable-multilib --disable-nls --disable-win32-registry --enable-mingw-wildcard CFLAGS_FOR_TARGET=-Os CXXFLAGS_FOR_TARGET=-Os LDFLAGS_FOR_TARGET=-s CFLAGS=-Os CXXFLAGS=-Os LDFLAGS=-s
+        Thread model: posix
+        Supported LTO compression algorithms: zlib
+        gcc version 13.1.0 (GCC) 
+        COMPILER_PATH=E:/Avania/caches/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/13.1.0/;E:/Avania/caches/mingw64/bin/../libexec/gcc/
+        LIBRARY_PATH=E:/Avania/caches/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/;E:/Avania/caches/mingw64/bin/../lib/gcc/;E:/Avania/caches/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib/;E:/Avania/caches/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../lib/;E:/Avania/caches/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/;E:/Avania/caches/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_82a3d.exe' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_82a3d.'
+         E:/Avania/caches/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/13.1.0/collect2.exe -plugin E:/Avania/caches/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/13.1.0/liblto_plugin.dll -plugin-opt=E:/Avania/caches/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/13.1.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\Avania\\AppData\\Local\\Temp\\ccKAD0uT.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 --sysroot=E:/Avania/caches/mingw64/bin/../x86_64-w64-mingw32 -m i386pep -Bdynamic -o cmTC_82a3d.exe E:/Avania/caches/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o E:/Avania/caches/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/crtbegin.o -LE:/Avania/caches/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0 -LE:/Avania/caches/mingw64/bin/../lib/gcc -LE:/Avania/caches/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib -LE:/Avania/caches/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../lib -LE:/Avania/caches/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib -LE:/Avania/caches/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../.. --dependency-file CMakeFiles\\cmTC_82a3d.dir\\link.d --whole-archive CMakeFiles\\cmTC_82a3d.dir/objects.a --no-whole-archive --out-implib libcmTC_82a3d.dll.a --major-image-version 0 --minor-image-version 0 -lmingw32 -lgcc -lmoldname -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc -lmoldname -lmingwex -lmsvcrt -lkernel32 E:/Avania/caches/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/crtend.o
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_82a3d.exe' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_82a3d.'
+        make[1]: Leaving directory 'E:/git_codes/practice/build/CMakeFiles/CMakeScratch/TryCompile-y4stb5'
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "E:/Avania/caches/cmake/share/cmake-3.27/Modules/CMakeDetermineCompilerABI.cmake:127 (message)"
+      - "E:/Avania/caches/cmake/share/cmake-3.27/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:7 (project)"
+    message: |
+      Parsed C implicit include dir info: rv=done
+        found start of include info
+        found start of implicit include info
+          add: [E:/Avania/caches/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include]
+          add: [E:/Avania/caches/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed]
+          add: [E:/Avania/caches/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/include]
+        end of search list found
+        collapse include dir [E:/Avania/caches/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include] ==> [E:/Avania/caches/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include]
+        collapse include dir [E:/Avania/caches/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed] ==> [E:/Avania/caches/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed]
+        collapse include dir [E:/Avania/caches/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/include] ==> [E:/Avania/caches/mingw64/x86_64-w64-mingw32/include]
+        implicit include dirs: [E:/Avania/caches/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include;E:/Avania/caches/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed;E:/Avania/caches/mingw64/x86_64-w64-mingw32/include]
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "E:/Avania/caches/cmake/share/cmake-3.27/Modules/CMakeDetermineCompilerABI.cmake:152 (message)"
+      - "E:/Avania/caches/cmake/share/cmake-3.27/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:7 (project)"
+    message: |
+      Parsed C implicit link information:
+        link line regex: [^( *|.*[/\\])(ld\\.exe|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        ignore line: [Change Dir: 'E:/git_codes/practice/build/CMakeFiles/CMakeScratch/TryCompile-y4stb5']
+        ignore line: []
+        ignore line: [Run Build Command(s): E:/Avania/caches/cmake/bin/cmake.exe -E env VERBOSE=1 E:/Avania/caches/mingw64/bin/mingw32-make.exe -f Makefile cmTC_82a3d/fast]
+        ignore line: [make  -f CMakeFiles\\cmTC_82a3d.dir\\build.make CMakeFiles/cmTC_82a3d.dir/build]
+        ignore line: [make[1]: Entering directory 'E:/git_codes/practice/build/CMakeFiles/CMakeScratch/TryCompile-y4stb5']
+        ignore line: [Building C object CMakeFiles/cmTC_82a3d.dir/CMakeCCompilerABI.c.obj]
+        ignore line: [E:\\Avania\\caches\\mingw64\\bin\\gcc.exe   -v -o CMakeFiles\\cmTC_82a3d.dir\\CMakeCCompilerABI.c.obj -c E:\\Avania\\caches\\cmake\\share\\cmake-3.27\\Modules\\CMakeCCompilerABI.c]
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=E:\\Avania\\caches\\mingw64\\bin\\gcc.exe]
+        ignore line: [Target: x86_64-w64-mingw32]
+        ignore line: [Configured with: /gcc-13.1.0/configure --prefix=/w64devkit --with-sysroot=/w64devkit/x86_64-w64-mingw32 --with-native-system-header-dir=/include --target=x86_64-w64-mingw32 --host=x86_64-w64-mingw32 --enable-static --disable-shared --with-pic --with-gmp-include=/deps/include --with-gmp-lib=/deps/lib --with-mpc-include=/deps/include --with-mpc-lib=/deps/lib --with-mpfr-include=/deps/include --with-mpfr-lib=/deps/lib --enable-languages=c c++ --enable-libgomp --enable-threads=posix --enable-version-specific-runtime-libs --disable-dependency-tracking --disable-multilib --disable-nls --disable-win32-registry --enable-mingw-wildcard CFLAGS_FOR_TARGET=-Os CXXFLAGS_FOR_TARGET=-Os LDFLAGS_FOR_TARGET=-s CFLAGS=-Os CXXFLAGS=-Os LDFLAGS=-s]
+        ignore line: [Thread model: posix]
+        ignore line: [Supported LTO compression algorithms: zlib]
+        ignore line: [gcc version 13.1.0 (GCC) ]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_82a3d.dir\\CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles\\cmTC_82a3d.dir\\']
+        ignore line: [ E:/Avania/caches/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/13.1.0/cc1.exe -quiet -v -iprefix E:/Avania/caches/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/ -isysroot E:/Avania/caches/mingw64/bin/../x86_64-w64-mingw32 -D_REENTRANT E:\\Avania\\caches\\cmake\\share\\cmake-3.27\\Modules\\CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles\\cmTC_82a3d.dir\\ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=x86-64 -version -o C:\\Users\\Avania\\AppData\\Local\\Temp\\ccSkcEdN.s]
+        ignore line: [GNU C17 (GCC) version 13.1.0 (x86_64-w64-mingw32)]
+        ignore line: [	compiled by GNU C version 13.1.0  GMP version 6.2.1  MPFR version 4.1.0  MPC version 1.2.1  isl version none]
+        ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+        ignore line: [ignoring duplicate directory "E:/Avania/caches/mingw64/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/13.1.0/include"]
+        ignore line: [ignoring nonexistent directory "E:/Avania/caches/mingw64/bin/../x86_64-w64-mingw32/w64devkit/lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../include"]
+        ignore line: [ignoring duplicate directory "E:/Avania/caches/mingw64/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed"]
+        ignore line: [ignoring duplicate directory "E:/Avania/caches/mingw64/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/include"]
+        ignore line: [ignoring nonexistent directory "E:/Avania/caches/mingw64/bin/../x86_64-w64-mingw32/mingw/include"]
+        ignore line: [#include "..." search starts here:]
+        ignore line: [#include <...> search starts here:]
+        ignore line: [ E:/Avania/caches/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include]
+        ignore line: [ E:/Avania/caches/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed]
+        ignore line: [ E:/Avania/caches/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/include]
+        ignore line: [End of search list.]
+        ignore line: [Compiler executable checksum: bb71682e5f68c22328344a209ef304e3]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_82a3d.dir\\CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles\\cmTC_82a3d.dir\\']
+        ignore line: [ as -v -o CMakeFiles\\cmTC_82a3d.dir\\CMakeCCompilerABI.c.obj C:\\Users\\Avania\\AppData\\Local\\Temp\\ccSkcEdN.s]
+        ignore line: [GNU assembler version 2.40 (x86_64-w64-mingw32) using BFD version (GNU Binutils) 2.40]
+        ignore line: [COMPILER_PATH=E:/Avania/caches/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/13.1.0/]
+        ignore line: [E:/Avania/caches/mingw64/bin/../libexec/gcc/]
+        ignore line: [LIBRARY_PATH=E:/Avania/caches/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/]
+        ignore line: [E:/Avania/caches/mingw64/bin/../lib/gcc/]
+        ignore line: [E:/Avania/caches/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib/]
+        ignore line: [E:/Avania/caches/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../lib/]
+        ignore line: [E:/Avania/caches/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/]
+        ignore line: [E:/Avania/caches/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_82a3d.dir\\CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles\\cmTC_82a3d.dir\\CMakeCCompilerABI.c.']
+        ignore line: [Linking C executable cmTC_82a3d.exe]
+        ignore line: [E:\\Avania\\caches\\cmake\\bin\\cmake.exe -E cmake_link_script CMakeFiles\\cmTC_82a3d.dir\\link.txt --verbose=1]
+        ignore line: [E:\\Avania\\caches\\cmake\\bin\\cmake.exe -E rm -f CMakeFiles\\cmTC_82a3d.dir/objects.a]
+        ignore line: [E:\\Avania\\caches\\mingw64\\bin\\ar.exe qc CMakeFiles\\cmTC_82a3d.dir/objects.a @CMakeFiles\\cmTC_82a3d.dir\\objects1.rsp]
+        ignore line: [E:\\Avania\\caches\\mingw64\\bin\\gcc.exe  -v -Wl --dependency-file CMakeFiles\\cmTC_82a3d.dir\\link.d -Wl --whole-archive CMakeFiles\\cmTC_82a3d.dir/objects.a -Wl --no-whole-archive -o cmTC_82a3d.exe -Wl --out-implib libcmTC_82a3d.dll.a -Wl --major-image-version 0 --minor-image-version 0 ]
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=E:\\Avania\\caches\\mingw64\\bin\\gcc.exe]
+        ignore line: [COLLECT_LTO_WRAPPER=E:/Avania/caches/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/13.1.0/lto-wrapper.exe]
+        ignore line: [Target: x86_64-w64-mingw32]
+        ignore line: [Configured with: /gcc-13.1.0/configure --prefix=/w64devkit --with-sysroot=/w64devkit/x86_64-w64-mingw32 --with-native-system-header-dir=/include --target=x86_64-w64-mingw32 --host=x86_64-w64-mingw32 --enable-static --disable-shared --with-pic --with-gmp-include=/deps/include --with-gmp-lib=/deps/lib --with-mpc-include=/deps/include --with-mpc-lib=/deps/lib --with-mpfr-include=/deps/include --with-mpfr-lib=/deps/lib --enable-languages=c c++ --enable-libgomp --enable-threads=posix --enable-version-specific-runtime-libs --disable-dependency-tracking --disable-multilib --disable-nls --disable-win32-registry --enable-mingw-wildcard CFLAGS_FOR_TARGET=-Os CXXFLAGS_FOR_TARGET=-Os LDFLAGS_FOR_TARGET=-s CFLAGS=-Os CXXFLAGS=-Os LDFLAGS=-s]
+        ignore line: [Thread model: posix]
+        ignore line: [Supported LTO compression algorithms: zlib]
+        ignore line: [gcc version 13.1.0 (GCC) ]
+        ignore line: [COMPILER_PATH=E:/Avania/caches/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/13.1.0/]
+        ignore line: [E:/Avania/caches/mingw64/bin/../libexec/gcc/]
+        ignore line: [LIBRARY_PATH=E:/Avania/caches/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/]
+        ignore line: [E:/Avania/caches/mingw64/bin/../lib/gcc/]
+        ignore line: [E:/Avania/caches/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib/]
+        ignore line: [E:/Avania/caches/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../lib/]
+        ignore line: [E:/Avania/caches/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/]
+        ignore line: [E:/Avania/caches/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_82a3d.exe' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_82a3d.']
+        link line: [ E:/Avania/caches/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/13.1.0/collect2.exe -plugin E:/Avania/caches/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/13.1.0/liblto_plugin.dll -plugin-opt=E:/Avania/caches/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/13.1.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\Avania\\AppData\\Local\\Temp\\ccKAD0uT.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 --sysroot=E:/Avania/caches/mingw64/bin/../x86_64-w64-mingw32 -m i386pep -Bdynamic -o cmTC_82a3d.exe E:/Avania/caches/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o E:/Avania/caches/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/crtbegin.o -LE:/Avania/caches/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0 -LE:/Avania/caches/mingw64/bin/../lib/gcc -LE:/Avania/caches/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib -LE:/Avania/caches/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../lib -LE:/Avania/caches/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib -LE:/Avania/caches/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../.. --dependency-file CMakeFiles\\cmTC_82a3d.dir\\link.d --whole-archive CMakeFiles\\cmTC_82a3d.dir/objects.a --no-whole-archive --out-implib libcmTC_82a3d.dll.a --major-image-version 0 --minor-image-version 0 -lmingw32 -lgcc -lmoldname -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc -lmoldname -lmingwex -lmsvcrt -lkernel32 E:/Avania/caches/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/crtend.o]
+          arg [E:/Avania/caches/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/13.1.0/collect2.exe] ==> ignore
+          arg [-plugin] ==> ignore
+          arg [E:/Avania/caches/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/13.1.0/liblto_plugin.dll] ==> ignore
+          arg [-plugin-opt=E:/Avania/caches/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/13.1.0/lto-wrapper.exe] ==> ignore
+          arg [-plugin-opt=-fresolution=C:\\Users\\Avania\\AppData\\Local\\Temp\\ccKAD0uT.res] ==> ignore
+          arg [-plugin-opt=-pass-through=-lmingw32] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lmoldname] ==> ignore
+          arg [-plugin-opt=-pass-through=-lmingwex] ==> ignore
+          arg [-plugin-opt=-pass-through=-lmsvcrt] ==> ignore
+          arg [-plugin-opt=-pass-through=-lkernel32] ==> ignore
+          arg [-plugin-opt=-pass-through=-lpthread] ==> ignore
+          arg [-plugin-opt=-pass-through=-ladvapi32] ==> ignore
+          arg [-plugin-opt=-pass-through=-lshell32] ==> ignore
+          arg [-plugin-opt=-pass-through=-luser32] ==> ignore
+          arg [-plugin-opt=-pass-through=-lkernel32] ==> ignore
+          arg [-plugin-opt=-pass-through=-lmingw32] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lmoldname] ==> ignore
+          arg [-plugin-opt=-pass-through=-lmingwex] ==> ignore
+          arg [-plugin-opt=-pass-through=-lmsvcrt] ==> ignore
+          arg [-plugin-opt=-pass-through=-lkernel32] ==> ignore
+          arg [--sysroot=E:/Avania/caches/mingw64/bin/../x86_64-w64-mingw32] ==> ignore
+          arg [-m] ==> ignore
+          arg [i386pep] ==> ignore
+          arg [-Bdynamic] ==> search dynamic
+          arg [-o] ==> ignore
+          arg [cmTC_82a3d.exe] ==> ignore
+          arg [E:/Avania/caches/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o] ==> obj [E:/Avania/caches/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o]
+          arg [E:/Avania/caches/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/crtbegin.o] ==> obj [E:/Avania/caches/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/crtbegin.o]
+          arg [-LE:/Avania/caches/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0] ==> dir [E:/Avania/caches/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0]
+          arg [-LE:/Avania/caches/mingw64/bin/../lib/gcc] ==> dir [E:/Avania/caches/mingw64/bin/../lib/gcc]
+          arg [-LE:/Avania/caches/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib] ==> dir [E:/Avania/caches/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib]
+          arg [-LE:/Avania/caches/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../lib] ==> dir [E:/Avania/caches/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../lib]
+          arg [-LE:/Avania/caches/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib] ==> dir [E:/Avania/caches/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib]
+          arg [-LE:/Avania/caches/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../..] ==> dir [E:/Avania/caches/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../..]
+          arg [--dependency-file] ==> ignore
+          arg [CMakeFiles\\cmTC_82a3d.dir\\link.d] ==> ignore
+          arg [--whole-archive] ==> ignore
+          arg [CMakeFiles\\cmTC_82a3d.dir/objects.a] ==> ignore
+          arg [--no-whole-archive] ==> ignore
+          arg [--out-implib] ==> ignore
+          arg [libcmTC_82a3d.dll.a] ==> ignore
+          arg [--major-image-version] ==> ignore
+          arg [0] ==> ignore
+          arg [--minor-image-version] ==> ignore
+          arg [0] ==> ignore
+          arg [-lmingw32] ==> lib [mingw32]
+          arg [-lgcc] ==> lib [gcc]
+          arg [-lmoldname] ==> lib [moldname]
+          arg [-lmingwex] ==> lib [mingwex]
+          arg [-lmsvcrt] ==> lib [msvcrt]
+          arg [-lkernel32] ==> lib [kernel32]
+          arg [-lpthread] ==> lib [pthread]
+          arg [-ladvapi32] ==> lib [advapi32]
+          arg [-lshell32] ==> lib [shell32]
+          arg [-luser32] ==> lib [user32]
+          arg [-lkernel32] ==> lib [kernel32]
+          arg [-lmingw32] ==> lib [mingw32]
+          arg [-lgcc] ==> lib [gcc]
+          arg [-lmoldname] ==> lib [moldname]
+          arg [-lmingwex] ==> lib [mingwex]
+          arg [-lmsvcrt] ==> lib [msvcrt]
+          arg [-lkernel32] ==> lib [kernel32]
+          arg [E:/Avania/caches/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/crtend.o] ==> obj [E:/Avania/caches/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/crtend.o]
+        remove lib [msvcrt]
+        remove lib [msvcrt]
+        collapse obj [E:/Avania/caches/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o] ==> [E:/Avania/caches/mingw64/x86_64-w64-mingw32/lib/crt2.o]
+        collapse obj [E:/Avania/caches/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/crtbegin.o] ==> [E:/Avania/caches/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/crtbegin.o]
+        collapse obj [E:/Avania/caches/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/crtend.o] ==> [E:/Avania/caches/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/crtend.o]
+        collapse library dir [E:/Avania/caches/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0] ==> [E:/Avania/caches/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0]
+        collapse library dir [E:/Avania/caches/mingw64/bin/../lib/gcc] ==> [E:/Avania/caches/mingw64/lib/gcc]
+        collapse library dir [E:/Avania/caches/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib] ==> [E:/Avania/caches/mingw64/x86_64-w64-mingw32/lib]
+        collapse library dir [E:/Avania/caches/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../lib] ==> [E:/Avania/caches/mingw64/lib]
+        collapse library dir [E:/Avania/caches/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib] ==> [E:/Avania/caches/mingw64/x86_64-w64-mingw32/lib]
+        collapse library dir [E:/Avania/caches/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../..] ==> [E:/Avania/caches/mingw64/lib]
+        implicit libs: [mingw32;gcc;moldname;mingwex;kernel32;pthread;advapi32;shell32;user32;kernel32;mingw32;gcc;moldname;mingwex;kernel32]
+        implicit objs: [E:/Avania/caches/mingw64/x86_64-w64-mingw32/lib/crt2.o;E:/Avania/caches/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/crtbegin.o;E:/Avania/caches/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/crtend.o]
+        implicit dirs: [E:/Avania/caches/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0;E:/Avania/caches/mingw64/lib/gcc;E:/Avania/caches/mingw64/x86_64-w64-mingw32/lib;E:/Avania/caches/mingw64/lib]
+        implicit fwks: []
+      
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "E:/Avania/caches/cmake/share/cmake-3.27/Modules/CMakeDetermineCompilerABI.cmake:57 (try_compile)"
+      - "E:/Avania/caches/cmake/share/cmake-3.27/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:7 (project)"
+    checks:
+      - "Detecting CXX compiler ABI info"
+    directories:
+      source: "E:/git_codes/practice/build/CMakeFiles/CMakeScratch/TryCompile-rtry2q"
+      binary: "E:/git_codes/practice/build/CMakeFiles/CMakeScratch/TryCompile-rtry2q"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "CMAKE_CXX_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'E:/git_codes/practice/build/CMakeFiles/CMakeScratch/TryCompile-rtry2q'
+        
+        Run Build Command(s): E:/Avania/caches/cmake/bin/cmake.exe -E env VERBOSE=1 E:/Avania/caches/mingw64/bin/mingw32-make.exe -f Makefile cmTC_8457f/fast
+        make  -f CMakeFiles\\cmTC_8457f.dir\\build.make CMakeFiles/cmTC_8457f.dir/build
+        make[1]: Entering directory 'E:/git_codes/practice/build/CMakeFiles/CMakeScratch/TryCompile-rtry2q'
+        Building CXX object CMakeFiles/cmTC_8457f.dir/CMakeCXXCompilerABI.cpp.obj
+        E:\\Avania\\caches\\mingw64\\bin\\g++.exe   -v -o CMakeFiles\\cmTC_8457f.dir\\CMakeCXXCompilerABI.cpp.obj -c E:\\Avania\\caches\\cmake\\share\\cmake-3.27\\Modules\\CMakeCXXCompilerABI.cpp
+        Using built-in specs.
+        COLLECT_GCC=E:\\Avania\\caches\\mingw64\\bin\\g++.exe
+        Target: x86_64-w64-mingw32
+        Configured with: /gcc-13.1.0/configure --prefix=/w64devkit --with-sysroot=/w64devkit/x86_64-w64-mingw32 --with-native-system-header-dir=/include --target=x86_64-w64-mingw32 --host=x86_64-w64-mingw32 --enable-static --disable-shared --with-pic --with-gmp-include=/deps/include --with-gmp-lib=/deps/lib --with-mpc-include=/deps/include --with-mpc-lib=/deps/lib --with-mpfr-include=/deps/include --with-mpfr-lib=/deps/lib --enable-languages=c,c++ --enable-libgomp --enable-threads=posix --enable-version-specific-runtime-libs --disable-dependency-tracking --disable-multilib --disable-nls --disable-win32-registry --enable-mingw-wildcard CFLAGS_FOR_TARGET=-Os CXXFLAGS_FOR_TARGET=-Os LDFLAGS_FOR_TARGET=-s CFLAGS=-Os CXXFLAGS=-Os LDFLAGS=-s
+        Thread model: posix
+        Supported LTO compression algorithms: zlib
+        gcc version 13.1.0 (GCC) 
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_8457f.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles\\cmTC_8457f.dir\\'
+         E:/Avania/caches/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/13.1.0/cc1plus.exe -quiet -v -iprefix E:/Avania/caches/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/ -isysroot E:/Avania/caches/mingw64/bin/../x86_64-w64-mingw32 -D_REENTRANT E:\\Avania\\caches\\cmake\\share\\cmake-3.27\\Modules\\CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles\\cmTC_8457f.dir\\ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -version -o C:\\Users\\Avania\\AppData\\Local\\Temp\\ccZXNGre.s
+        GNU C++17 (GCC) version 13.1.0 (x86_64-w64-mingw32)
+        	compiled by GNU C version 13.1.0, GMP version 6.2.1, MPFR version 4.1.0, MPC version 1.2.1, isl version none
+        GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+        ignoring duplicate directory "E:/Avania/caches/mingw64/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++"
+        ignoring duplicate directory "E:/Avania/caches/mingw64/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32"
+        ignoring duplicate directory "E:/Avania/caches/mingw64/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/backward"
+        ignoring duplicate directory "E:/Avania/caches/mingw64/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/13.1.0/include"
+        ignoring nonexistent directory "E:/Avania/caches/mingw64/bin/../x86_64-w64-mingw32/w64devkit/lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../include"
+        ignoring duplicate directory "E:/Avania/caches/mingw64/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed"
+        ignoring duplicate directory "E:/Avania/caches/mingw64/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/include"
+        ignoring nonexistent directory "E:/Avania/caches/mingw64/bin/../x86_64-w64-mingw32/mingw/include"
+        #include "..." search starts here:
+        #include <...> search starts here:
+         E:/Avania/caches/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++
+         E:/Avania/caches/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32
+         E:/Avania/caches/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/backward
+         E:/Avania/caches/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include
+         E:/Avania/caches/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed
+         E:/Avania/caches/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/include
+        End of search list.
+        Compiler executable checksum: 5d1646ca4b44fd25f71d554c3d590391
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_8457f.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles\\cmTC_8457f.dir\\'
+         as -v -o CMakeFiles\\cmTC_8457f.dir\\CMakeCXXCompilerABI.cpp.obj C:\\Users\\Avania\\AppData\\Local\\Temp\\ccZXNGre.s
+        GNU assembler version 2.40 (x86_64-w64-mingw32) using BFD version (GNU Binutils) 2.40
+        COMPILER_PATH=E:/Avania/caches/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/13.1.0/;E:/Avania/caches/mingw64/bin/../libexec/gcc/
+        LIBRARY_PATH=E:/Avania/caches/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/;E:/Avania/caches/mingw64/bin/../lib/gcc/;E:/Avania/caches/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib/;E:/Avania/caches/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../lib/;E:/Avania/caches/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/;E:/Avania/caches/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_8457f.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles\\cmTC_8457f.dir\\CMakeCXXCompilerABI.cpp.'
+        Linking CXX executable cmTC_8457f.exe
+        E:\\Avania\\caches\\cmake\\bin\\cmake.exe -E cmake_link_script CMakeFiles\\cmTC_8457f.dir\\link.txt --verbose=1
+        E:\\Avania\\caches\\cmake\\bin\\cmake.exe -E rm -f CMakeFiles\\cmTC_8457f.dir/objects.a
+        E:\\Avania\\caches\\mingw64\\bin\\ar.exe qc CMakeFiles\\cmTC_8457f.dir/objects.a @CMakeFiles\\cmTC_8457f.dir\\objects1.rsp
+        E:\\Avania\\caches\\mingw64\\bin\\g++.exe  -v -Wl,--dependency-file,CMakeFiles\\cmTC_8457f.dir\\link.d -Wl,--whole-archive CMakeFiles\\cmTC_8457f.dir/objects.a -Wl,--no-whole-archive -o cmTC_8457f.exe -Wl,--out-implib,libcmTC_8457f.dll.a -Wl,--major-image-version,0,--minor-image-version,0 
+        Using built-in specs.
+        COLLECT_GCC=E:\\Avania\\caches\\mingw64\\bin\\g++.exe
+        COLLECT_LTO_WRAPPER=E:/Avania/caches/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/13.1.0/lto-wrapper.exe
+        Target: x86_64-w64-mingw32
+        Configured with: /gcc-13.1.0/configure --prefix=/w64devkit --with-sysroot=/w64devkit/x86_64-w64-mingw32 --with-native-system-header-dir=/include --target=x86_64-w64-mingw32 --host=x86_64-w64-mingw32 --enable-static --disable-shared --with-pic --with-gmp-include=/deps/include --with-gmp-lib=/deps/lib --with-mpc-include=/deps/include --with-mpc-lib=/deps/lib --with-mpfr-include=/deps/include --with-mpfr-lib=/deps/lib --enable-languages=c,c++ --enable-libgomp --enable-threads=posix --enable-version-specific-runtime-libs --disable-dependency-tracking --disable-multilib --disable-nls --disable-win32-registry --enable-mingw-wildcard CFLAGS_FOR_TARGET=-Os CXXFLAGS_FOR_TARGET=-Os LDFLAGS_FOR_TARGET=-s CFLAGS=-Os CXXFLAGS=-Os LDFLAGS=-s
+        Thread model: posix
+        Supported LTO compression algorithms: zlib
+        gcc version 13.1.0 (GCC) 
+        COMPILER_PATH=E:/Avania/caches/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/13.1.0/;E:/Avania/caches/mingw64/bin/../libexec/gcc/
+        LIBRARY_PATH=E:/Avania/caches/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/;E:/Avania/caches/mingw64/bin/../lib/gcc/;E:/Avania/caches/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib/;E:/Avania/caches/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../lib/;E:/Avania/caches/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/;E:/Avania/caches/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_8457f.exe' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_8457f.'
+         E:/Avania/caches/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/13.1.0/collect2.exe -plugin E:/Avania/caches/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/13.1.0/liblto_plugin.dll -plugin-opt=E:/Avania/caches/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/13.1.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\Avania\\AppData\\Local\\Temp\\ccZNGG9k.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 --sysroot=E:/Avania/caches/mingw64/bin/../x86_64-w64-mingw32 -m i386pep -Bdynamic -o cmTC_8457f.exe E:/Avania/caches/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o E:/Avania/caches/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/crtbegin.o -LE:/Avania/caches/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0 -LE:/Avania/caches/mingw64/bin/../lib/gcc -LE:/Avania/caches/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib -LE:/Avania/caches/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../lib -LE:/Avania/caches/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib -LE:/Avania/caches/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../.. --dependency-file CMakeFiles\\cmTC_8457f.dir\\link.d --whole-archive CMakeFiles\\cmTC_8457f.dir/objects.a --no-whole-archive --out-implib libcmTC_8457f.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc -lmoldname -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc -lmoldname -lmingwex -lmsvcrt -lkernel32 E:/Avania/caches/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/crtend.o
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_8457f.exe' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_8457f.'
+        make[1]: Leaving directory 'E:/git_codes/practice/build/CMakeFiles/CMakeScratch/TryCompile-rtry2q'
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "E:/Avania/caches/cmake/share/cmake-3.27/Modules/CMakeDetermineCompilerABI.cmake:127 (message)"
+      - "E:/Avania/caches/cmake/share/cmake-3.27/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:7 (project)"
+    message: |
+      Parsed CXX implicit include dir info: rv=done
+        found start of include info
+        found start of implicit include info
+          add: [E:/Avania/caches/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++]
+          add: [E:/Avania/caches/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32]
+          add: [E:/Avania/caches/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/backward]
+          add: [E:/Avania/caches/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include]
+          add: [E:/Avania/caches/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed]
+          add: [E:/Avania/caches/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/include]
+        end of search list found
+        collapse include dir [E:/Avania/caches/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++] ==> [E:/Avania/caches/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++]
+        collapse include dir [E:/Avania/caches/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32] ==> [E:/Avania/caches/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32]
+        collapse include dir [E:/Avania/caches/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/backward] ==> [E:/Avania/caches/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/backward]
+        collapse include dir [E:/Avania/caches/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include] ==> [E:/Avania/caches/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include]
+        collapse include dir [E:/Avania/caches/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed] ==> [E:/Avania/caches/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed]
+        collapse include dir [E:/Avania/caches/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/include] ==> [E:/Avania/caches/mingw64/x86_64-w64-mingw32/include]
+        implicit include dirs: [E:/Avania/caches/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++;E:/Avania/caches/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32;E:/Avania/caches/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/backward;E:/Avania/caches/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include;E:/Avania/caches/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed;E:/Avania/caches/mingw64/x86_64-w64-mingw32/include]
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "E:/Avania/caches/cmake/share/cmake-3.27/Modules/CMakeDetermineCompilerABI.cmake:152 (message)"
+      - "E:/Avania/caches/cmake/share/cmake-3.27/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:7 (project)"
+    message: |
+      Parsed CXX implicit link information:
+        link line regex: [^( *|.*[/\\])(ld\\.exe|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        ignore line: [Change Dir: 'E:/git_codes/practice/build/CMakeFiles/CMakeScratch/TryCompile-rtry2q']
+        ignore line: []
+        ignore line: [Run Build Command(s): E:/Avania/caches/cmake/bin/cmake.exe -E env VERBOSE=1 E:/Avania/caches/mingw64/bin/mingw32-make.exe -f Makefile cmTC_8457f/fast]
+        ignore line: [make  -f CMakeFiles\\cmTC_8457f.dir\\build.make CMakeFiles/cmTC_8457f.dir/build]
+        ignore line: [make[1]: Entering directory 'E:/git_codes/practice/build/CMakeFiles/CMakeScratch/TryCompile-rtry2q']
+        ignore line: [Building CXX object CMakeFiles/cmTC_8457f.dir/CMakeCXXCompilerABI.cpp.obj]
+        ignore line: [E:\\Avania\\caches\\mingw64\\bin\\g++.exe   -v -o CMakeFiles\\cmTC_8457f.dir\\CMakeCXXCompilerABI.cpp.obj -c E:\\Avania\\caches\\cmake\\share\\cmake-3.27\\Modules\\CMakeCXXCompilerABI.cpp]
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=E:\\Avania\\caches\\mingw64\\bin\\g++.exe]
+        ignore line: [Target: x86_64-w64-mingw32]
+        ignore line: [Configured with: /gcc-13.1.0/configure --prefix=/w64devkit --with-sysroot=/w64devkit/x86_64-w64-mingw32 --with-native-system-header-dir=/include --target=x86_64-w64-mingw32 --host=x86_64-w64-mingw32 --enable-static --disable-shared --with-pic --with-gmp-include=/deps/include --with-gmp-lib=/deps/lib --with-mpc-include=/deps/include --with-mpc-lib=/deps/lib --with-mpfr-include=/deps/include --with-mpfr-lib=/deps/lib --enable-languages=c c++ --enable-libgomp --enable-threads=posix --enable-version-specific-runtime-libs --disable-dependency-tracking --disable-multilib --disable-nls --disable-win32-registry --enable-mingw-wildcard CFLAGS_FOR_TARGET=-Os CXXFLAGS_FOR_TARGET=-Os LDFLAGS_FOR_TARGET=-s CFLAGS=-Os CXXFLAGS=-Os LDFLAGS=-s]
+        ignore line: [Thread model: posix]
+        ignore line: [Supported LTO compression algorithms: zlib]
+        ignore line: [gcc version 13.1.0 (GCC) ]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_8457f.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles\\cmTC_8457f.dir\\']
+        ignore line: [ E:/Avania/caches/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/13.1.0/cc1plus.exe -quiet -v -iprefix E:/Avania/caches/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/ -isysroot E:/Avania/caches/mingw64/bin/../x86_64-w64-mingw32 -D_REENTRANT E:\\Avania\\caches\\cmake\\share\\cmake-3.27\\Modules\\CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles\\cmTC_8457f.dir\\ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -version -o C:\\Users\\Avania\\AppData\\Local\\Temp\\ccZXNGre.s]
+        ignore line: [GNU C++17 (GCC) version 13.1.0 (x86_64-w64-mingw32)]
+        ignore line: [	compiled by GNU C version 13.1.0  GMP version 6.2.1  MPFR version 4.1.0  MPC version 1.2.1  isl version none]
+        ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+        ignore line: [ignoring duplicate directory "E:/Avania/caches/mingw64/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++"]
+        ignore line: [ignoring duplicate directory "E:/Avania/caches/mingw64/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32"]
+        ignore line: [ignoring duplicate directory "E:/Avania/caches/mingw64/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/backward"]
+        ignore line: [ignoring duplicate directory "E:/Avania/caches/mingw64/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/13.1.0/include"]
+        ignore line: [ignoring nonexistent directory "E:/Avania/caches/mingw64/bin/../x86_64-w64-mingw32/w64devkit/lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../include"]
+        ignore line: [ignoring duplicate directory "E:/Avania/caches/mingw64/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed"]
+        ignore line: [ignoring duplicate directory "E:/Avania/caches/mingw64/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/include"]
+        ignore line: [ignoring nonexistent directory "E:/Avania/caches/mingw64/bin/../x86_64-w64-mingw32/mingw/include"]
+        ignore line: [#include "..." search starts here:]
+        ignore line: [#include <...> search starts here:]
+        ignore line: [ E:/Avania/caches/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++]
+        ignore line: [ E:/Avania/caches/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32]
+        ignore line: [ E:/Avania/caches/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/backward]
+        ignore line: [ E:/Avania/caches/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include]
+        ignore line: [ E:/Avania/caches/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed]
+        ignore line: [ E:/Avania/caches/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/include]
+        ignore line: [End of search list.]
+        ignore line: [Compiler executable checksum: 5d1646ca4b44fd25f71d554c3d590391]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_8457f.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles\\cmTC_8457f.dir\\']
+        ignore line: [ as -v -o CMakeFiles\\cmTC_8457f.dir\\CMakeCXXCompilerABI.cpp.obj C:\\Users\\Avania\\AppData\\Local\\Temp\\ccZXNGre.s]
+        ignore line: [GNU assembler version 2.40 (x86_64-w64-mingw32) using BFD version (GNU Binutils) 2.40]
+        ignore line: [COMPILER_PATH=E:/Avania/caches/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/13.1.0/]
+        ignore line: [E:/Avania/caches/mingw64/bin/../libexec/gcc/]
+        ignore line: [LIBRARY_PATH=E:/Avania/caches/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/]
+        ignore line: [E:/Avania/caches/mingw64/bin/../lib/gcc/]
+        ignore line: [E:/Avania/caches/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib/]
+        ignore line: [E:/Avania/caches/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../lib/]
+        ignore line: [E:/Avania/caches/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/]
+        ignore line: [E:/Avania/caches/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_8457f.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles\\cmTC_8457f.dir\\CMakeCXXCompilerABI.cpp.']
+        ignore line: [Linking CXX executable cmTC_8457f.exe]
+        ignore line: [E:\\Avania\\caches\\cmake\\bin\\cmake.exe -E cmake_link_script CMakeFiles\\cmTC_8457f.dir\\link.txt --verbose=1]
+        ignore line: [E:\\Avania\\caches\\cmake\\bin\\cmake.exe -E rm -f CMakeFiles\\cmTC_8457f.dir/objects.a]
+        ignore line: [E:\\Avania\\caches\\mingw64\\bin\\ar.exe qc CMakeFiles\\cmTC_8457f.dir/objects.a @CMakeFiles\\cmTC_8457f.dir\\objects1.rsp]
+        ignore line: [E:\\Avania\\caches\\mingw64\\bin\\g++.exe  -v -Wl --dependency-file CMakeFiles\\cmTC_8457f.dir\\link.d -Wl --whole-archive CMakeFiles\\cmTC_8457f.dir/objects.a -Wl --no-whole-archive -o cmTC_8457f.exe -Wl --out-implib libcmTC_8457f.dll.a -Wl --major-image-version 0 --minor-image-version 0 ]
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=E:\\Avania\\caches\\mingw64\\bin\\g++.exe]
+        ignore line: [COLLECT_LTO_WRAPPER=E:/Avania/caches/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/13.1.0/lto-wrapper.exe]
+        ignore line: [Target: x86_64-w64-mingw32]
+        ignore line: [Configured with: /gcc-13.1.0/configure --prefix=/w64devkit --with-sysroot=/w64devkit/x86_64-w64-mingw32 --with-native-system-header-dir=/include --target=x86_64-w64-mingw32 --host=x86_64-w64-mingw32 --enable-static --disable-shared --with-pic --with-gmp-include=/deps/include --with-gmp-lib=/deps/lib --with-mpc-include=/deps/include --with-mpc-lib=/deps/lib --with-mpfr-include=/deps/include --with-mpfr-lib=/deps/lib --enable-languages=c c++ --enable-libgomp --enable-threads=posix --enable-version-specific-runtime-libs --disable-dependency-tracking --disable-multilib --disable-nls --disable-win32-registry --enable-mingw-wildcard CFLAGS_FOR_TARGET=-Os CXXFLAGS_FOR_TARGET=-Os LDFLAGS_FOR_TARGET=-s CFLAGS=-Os CXXFLAGS=-Os LDFLAGS=-s]
+        ignore line: [Thread model: posix]
+        ignore line: [Supported LTO compression algorithms: zlib]
+        ignore line: [gcc version 13.1.0 (GCC) ]
+        ignore line: [COMPILER_PATH=E:/Avania/caches/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/13.1.0/]
+        ignore line: [E:/Avania/caches/mingw64/bin/../libexec/gcc/]
+        ignore line: [LIBRARY_PATH=E:/Avania/caches/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/]
+        ignore line: [E:/Avania/caches/mingw64/bin/../lib/gcc/]
+        ignore line: [E:/Avania/caches/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib/]
+        ignore line: [E:/Avania/caches/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../lib/]
+        ignore line: [E:/Avania/caches/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/]
+        ignore line: [E:/Avania/caches/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_8457f.exe' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_8457f.']
+        link line: [ E:/Avania/caches/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/13.1.0/collect2.exe -plugin E:/Avania/caches/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/13.1.0/liblto_plugin.dll -plugin-opt=E:/Avania/caches/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/13.1.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\Avania\\AppData\\Local\\Temp\\ccZNGG9k.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 --sysroot=E:/Avania/caches/mingw64/bin/../x86_64-w64-mingw32 -m i386pep -Bdynamic -o cmTC_8457f.exe E:/Avania/caches/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o E:/Avania/caches/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/crtbegin.o -LE:/Avania/caches/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0 -LE:/Avania/caches/mingw64/bin/../lib/gcc -LE:/Avania/caches/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib -LE:/Avania/caches/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../lib -LE:/Avania/caches/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib -LE:/Avania/caches/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../.. --dependency-file CMakeFiles\\cmTC_8457f.dir\\link.d --whole-archive CMakeFiles\\cmTC_8457f.dir/objects.a --no-whole-archive --out-implib libcmTC_8457f.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc -lmoldname -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc -lmoldname -lmingwex -lmsvcrt -lkernel32 E:/Avania/caches/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/crtend.o]
+          arg [E:/Avania/caches/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/13.1.0/collect2.exe] ==> ignore
+          arg [-plugin] ==> ignore
+          arg [E:/Avania/caches/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/13.1.0/liblto_plugin.dll] ==> ignore
+          arg [-plugin-opt=E:/Avania/caches/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/13.1.0/lto-wrapper.exe] ==> ignore
+          arg [-plugin-opt=-fresolution=C:\\Users\\Avania\\AppData\\Local\\Temp\\ccZNGG9k.res] ==> ignore
+          arg [-plugin-opt=-pass-through=-lmingw32] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lmoldname] ==> ignore
+          arg [-plugin-opt=-pass-through=-lmingwex] ==> ignore
+          arg [-plugin-opt=-pass-through=-lmsvcrt] ==> ignore
+          arg [-plugin-opt=-pass-through=-lkernel32] ==> ignore
+          arg [-plugin-opt=-pass-through=-lpthread] ==> ignore
+          arg [-plugin-opt=-pass-through=-ladvapi32] ==> ignore
+          arg [-plugin-opt=-pass-through=-lshell32] ==> ignore
+          arg [-plugin-opt=-pass-through=-luser32] ==> ignore
+          arg [-plugin-opt=-pass-through=-lkernel32] ==> ignore
+          arg [-plugin-opt=-pass-through=-lmingw32] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lmoldname] ==> ignore
+          arg [-plugin-opt=-pass-through=-lmingwex] ==> ignore
+          arg [-plugin-opt=-pass-through=-lmsvcrt] ==> ignore
+          arg [-plugin-opt=-pass-through=-lkernel32] ==> ignore
+          arg [--sysroot=E:/Avania/caches/mingw64/bin/../x86_64-w64-mingw32] ==> ignore
+          arg [-m] ==> ignore
+          arg [i386pep] ==> ignore
+          arg [-Bdynamic] ==> search dynamic
+          arg [-o] ==> ignore
+          arg [cmTC_8457f.exe] ==> ignore
+          arg [E:/Avania/caches/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o] ==> obj [E:/Avania/caches/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o]
+          arg [E:/Avania/caches/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/crtbegin.o] ==> obj [E:/Avania/caches/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/crtbegin.o]
+          arg [-LE:/Avania/caches/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0] ==> dir [E:/Avania/caches/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0]
+          arg [-LE:/Avania/caches/mingw64/bin/../lib/gcc] ==> dir [E:/Avania/caches/mingw64/bin/../lib/gcc]
+          arg [-LE:/Avania/caches/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib] ==> dir [E:/Avania/caches/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib]
+          arg [-LE:/Avania/caches/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../lib] ==> dir [E:/Avania/caches/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../lib]
+          arg [-LE:/Avania/caches/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib] ==> dir [E:/Avania/caches/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib]
+          arg [-LE:/Avania/caches/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../..] ==> dir [E:/Avania/caches/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../..]
+          arg [--dependency-file] ==> ignore
+          arg [CMakeFiles\\cmTC_8457f.dir\\link.d] ==> ignore
+          arg [--whole-archive] ==> ignore
+          arg [CMakeFiles\\cmTC_8457f.dir/objects.a] ==> ignore
+          arg [--no-whole-archive] ==> ignore
+          arg [--out-implib] ==> ignore
+          arg [libcmTC_8457f.dll.a] ==> ignore
+          arg [--major-image-version] ==> ignore
+          arg [0] ==> ignore
+          arg [--minor-image-version] ==> ignore
+          arg [0] ==> ignore
+          arg [-lstdc++] ==> lib [stdc++]
+          arg [-lmingw32] ==> lib [mingw32]
+          arg [-lgcc] ==> lib [gcc]
+          arg [-lmoldname] ==> lib [moldname]
+          arg [-lmingwex] ==> lib [mingwex]
+          arg [-lmsvcrt] ==> lib [msvcrt]
+          arg [-lkernel32] ==> lib [kernel32]
+          arg [-lpthread] ==> lib [pthread]
+          arg [-ladvapi32] ==> lib [advapi32]
+          arg [-lshell32] ==> lib [shell32]
+          arg [-luser32] ==> lib [user32]
+          arg [-lkernel32] ==> lib [kernel32]
+          arg [-lmingw32] ==> lib [mingw32]
+          arg [-lgcc] ==> lib [gcc]
+          arg [-lmoldname] ==> lib [moldname]
+          arg [-lmingwex] ==> lib [mingwex]
+          arg [-lmsvcrt] ==> lib [msvcrt]
+          arg [-lkernel32] ==> lib [kernel32]
+          arg [E:/Avania/caches/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/crtend.o] ==> obj [E:/Avania/caches/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/crtend.o]
+        remove lib [msvcrt]
+        remove lib [msvcrt]
+        collapse obj [E:/Avania/caches/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o] ==> [E:/Avania/caches/mingw64/x86_64-w64-mingw32/lib/crt2.o]
+        collapse obj [E:/Avania/caches/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/crtbegin.o] ==> [E:/Avania/caches/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/crtbegin.o]
+        collapse obj [E:/Avania/caches/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/crtend.o] ==> [E:/Avania/caches/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/crtend.o]
+        collapse library dir [E:/Avania/caches/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0] ==> [E:/Avania/caches/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0]
+        collapse library dir [E:/Avania/caches/mingw64/bin/../lib/gcc] ==> [E:/Avania/caches/mingw64/lib/gcc]
+        collapse library dir [E:/Avania/caches/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib] ==> [E:/Avania/caches/mingw64/x86_64-w64-mingw32/lib]
+        collapse library dir [E:/Avania/caches/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../lib] ==> [E:/Avania/caches/mingw64/lib]
+        collapse library dir [E:/Avania/caches/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib] ==> [E:/Avania/caches/mingw64/x86_64-w64-mingw32/lib]
+        collapse library dir [E:/Avania/caches/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../..] ==> [E:/Avania/caches/mingw64/lib]
+        implicit libs: [stdc++;mingw32;gcc;moldname;mingwex;kernel32;pthread;advapi32;shell32;user32;kernel32;mingw32;gcc;moldname;mingwex;kernel32]
+        implicit objs: [E:/Avania/caches/mingw64/x86_64-w64-mingw32/lib/crt2.o;E:/Avania/caches/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/crtbegin.o;E:/Avania/caches/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/crtend.o]
+        implicit dirs: [E:/Avania/caches/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0;E:/Avania/caches/mingw64/lib/gcc;E:/Avania/caches/mingw64/x86_64-w64-mingw32/lib;E:/Avania/caches/mingw64/lib]
+        implicit fwks: []
+      
+      
+...
