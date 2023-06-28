@@ -19,13 +19,17 @@ void Play::Start()      //static method
         {
             if(INPUT.length() != 1)
             {    
-                throw "bad input\n";
-                break;
+                throw 100;
             }
         }
         catch(const char* err)
         {
             std::cerr << err << '\n';
+            break;
+        }
+        catch(int num_err)
+        {
+            std::cerr << num_err << '\n';
         }
         input_number = INPUT[0] - '0';
         

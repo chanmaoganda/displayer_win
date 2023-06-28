@@ -9,6 +9,7 @@
             "type": "cppdbg",
             "request": "launch",
             "program": "${workspaceFolder}/build/displayer.exe",
+            // "program": "${workspaceFolder}/test/a.exe",
             "args": [],
             "stopAtEntry": false,
             "cwd": "${fileDirname}",
