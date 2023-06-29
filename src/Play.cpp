@@ -121,3 +121,8 @@ void Play::Start_UI()
     std::cout << "\t\t\t\t\t|               PRESS  ENTER               |\n";
     std::cout << "\t\t\t\t\t============================================\n";
 }
+
+void Play::EventHandler()
+{
+    
+}
