@@ -418,5 +418,6 @@ CMakeFiles/displayer.dir/main.cpp.obj: E:\git_codes\practice\main.cpp \
  E:/Avania/caches/mingw64/x86_64-w64-mingw32/include/dsound.h \
  E:/Avania/caches/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/float.h \
  E:/Avania/caches/mingw64/x86_64-w64-mingw32/include/float.h \
+ E:/git_codes/practice/include/ui/DIsplayUI.h \
  E:/git_codes/practice/include/Mode.h \
  E:/git_codes/practice/include/mode_states/PlayState.h

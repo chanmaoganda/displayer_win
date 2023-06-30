@@ -2,10 +2,13 @@
 	"artifacts" : 
 	[
 		{
-			"path" : "displayer.exe"
+			"path" : "libplay.dll"
 		},
 		{
-			"path" : "displayer.pdb"
+			"path" : "libplay.dll.a"
+		},
+		{
+			"path" : "libplay.pdb"
 		}
 	],
 	"backtrace" : 1,
@@ -13,7 +16,7 @@
 	{
 		"commands" : 
 		[
-			"add_executable",
+			"add_library",
 			"include_directories"
 		],
 		"files" : 
@@ -34,19 +37,25 @@
 			{
 				"command" : 1,
 				"file" : 0,
-				"line" : 24,
+				"line" : 3,
 				"parent" : 0
 			},
 			{
 				"command" : 1,
 				"file" : 0,
-				"line" : 25,
+				"line" : 4,
 				"parent" : 0
 			},
 			{
 				"command" : 1,
 				"file" : 0,
-				"line" : 26,
+				"line" : 5,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 6,
 				"parent" : 0
 			}
 		]
@@ -58,6 +67,12 @@
 			[
 				{
 					"fragment" : "-g"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"define" : "play_EXPORTS"
 				}
 			],
 			"includes" : 
@@ -73,30 +88,35 @@
 				{
 					"backtrace" : 4,
 					"path" : "E:/git_codes/practice/include/songs"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "E:/git_codes/practice/include/ui"
 				}
 			],
 			"language" : "CXX",
 			"sourceIndexes" : 
 			[
-				0
+				0,
+				1,
+				2,
+				3,
+				4,
+				5
 			]
 		}
 	],
-	"id" : "displayer::@6890427a1f51a3e7e1df",
+	"id" : "play::@6890427a1f51a3e7e1df",
 	"link" : 
 	{
 		"commandFragments" : 
 		[
 			{
-				"fragment" : "-g",
-				"role" : "flags"
-			},
-			{
 				"fragment" : "",
 				"role" : "flags"
 			},
 			{
-				"fragment" : "-Wl,--dependency-file,CMakeFiles\\displayer.dir\\link.d",
+				"fragment" : "-Wl,--dependency-file,CMakeFiles\\play.dir\\link.d",
 				"role" : "flags"
 			},
 			{
@@ -116,8 +136,8 @@
 		],
 		"language" : "CXX"
 	},
-	"name" : "displayer",
-	"nameOnDisk" : "displayer.exe",
+	"name" : "play",
+	"nameOnDisk" : "libplay.dll",
 	"paths" : 
 	{
 		"build" : ".",
@@ -129,7 +149,12 @@
 			"name" : "Source Files",
 			"sourceIndexes" : 
 			[
-				0
+				0,
+				1,
+				2,
+				3,
+				4,
+				5
 			]
 		}
 	],
@@ -138,9 +163,39 @@
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "main.cpp",
+			"path" : "src/Displayer.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/Mode.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/Play.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/songs/PopSongs.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/songs/Song.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/ui/DisplayUI.cpp",
 			"sourceGroupIndex" : 0
 		}
 	],
-	"type" : "EXECUTABLE"
+	"type" : "SHARED_LIBRARY"
 }

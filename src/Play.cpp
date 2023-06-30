@@ -5,14 +5,17 @@ void Play::Start()      //static method
     bool flag = true;
     size_t input_number;
     std::string INPUT;
-    Play::Start_UI();
+    std::unique_ptr<Mode> mode( new Mode(state::PlayState::SEQUENCE) );
+
+    DisplayUI::Start_UI();
+    std::unique_ptr<Displayer> display(new Displayer(200));
 
     Sleep(1500);
-    system("clear");
 
     while(flag)
     {
-        Play::Menu_UI();
+        system("clear");
+        DisplayUI::Menu_UI();
         std::getline(std::cin, INPUT);
 
         try
@@ -33,30 +36,71 @@ void Play::Start()      //static method
         }
         input_number = INPUT[0] - '0';
         
-        switch(input_number)
-        {
-            case 0:
-                system("clear");
-                flag = false;
-                break;
-            case 1:
-                std::unique_ptr<Displayer> display(new Displayer(200));
-                system("clear");
-            
-                Song* song = new SONGS::PopSongs(new std::string("jiang_nan.mp3"));
-                display->AddSongs(song);
-                // display->ClearList();
-                
-                // Play::PlayAudio(song, 20);
-                std::cout << "playing music\n";
-                system("pause");
-                system("clear");
-
-                display->ClearList();
-                break;
-        }
-
+        system("clear");
+        SWITCH_INPUT(input_number, flag, display, mode);
     }
+}
+
+bool Play::SWITCH_INPUT(int input, bool& flag, std::unique_ptr<Displayer>& display, std::unique_ptr<Mode> &mode)
+{
+    std::unique_ptr<std::string> song_name ( new std::string() );
+    Song* song;
+    char choice;
+    switch(input)
+    {
+        case 0:
+            flag = false;
+            break;
+        case 1:
+            DisplayUI::PlayMusic_UI();
+            std::cin >> choice;
+            switch(choice)
+            {
+                case '1':
+                    
+                    break;
+                case '2':
+                    
+                    break;               
+                case '3':
+                    break;
+                case '4':
+                    break;                   
+            }
+            break;
+        case 2:
+            DisplayUI::Mode_UI();
+            std::cin >> choice;
+            switch(choice)
+            {
+                case '1':
+                    mode->ChangeMode(state::PlayState::SEQUENCE);
+                    break;
+                case '2':
+                    mode->ChangeMode(state::PlayState::RANDOM);
+                    break;               
+                case '3':
+                    mode->ChangeMode(state::PlayState::LOOP);
+                    break;
+                case '4':
+                    mode->ChangeMode(state::PlayState::CLEAR);
+                    break;                   
+            }
+            break;
+        case 4:
+            
+            std::getline(std::cin, *song_name);
+            song = new SONGS::PopSongs(new std::string(*song_name));
+            display->AddSongs(song);
+
+            std::cout << "playing music\n";
+            system("pause");
+            system("clear");
+            //dubug in the check point
+            // display->ClearList();
+            break;
+    }
+    return flag;
 }
 
 Song* Play::PlayAudio(Song* song)
@@ -76,7 +120,7 @@ Song* Play::PlayAudio(Song* song, size_t seconds)
     *Text += song->getName();
     *Text += " alias song";
 
-    char PassToConsole[100];
+    char* PassToConsole;
     strcpy(PassToConsole, Text->c_str());
 
     mciSendString(TEXT(PassToConsole), NULL, 0,NULL);
@@ -89,37 +133,6 @@ Song* Play::PlayAudio(Song* song, size_t seconds)
 	mciSendString(TEXT("close song"),NULL,0,NULL);
     return song;
 
-}
-
-void Play::Menu_UI()
-{
-    std::cout << "\t\t\t\t\t============================================\n";
-    std::cout << "\t\t\t\t\t|       welcome to my simple displayer     |\n";
-    std::cout << "\t\t\t\t\t|              1. play music               |\n";
-    std::cout << "\t\t\t\t\t|                                          |\n";
-    std::cout << "\t\t\t\t\t|                                          |\n";
-    std::cout << "\t\t\t\t\t|                                          |\n";
-    std::cout << "\t\t\t\t\t|                                          |\n";
-    std::cout << "\t\t\t\t\t|                                          |\n";
-    std::cout << "\t\t\t\t\t|                                          |\n";
-    std::cout << "\t\t\t\t\t|             0. quit | exit               |\n";
-    std::cout << "\t\t\t\t\t============================================\n";
-
-}
-
-void Play::Start_UI()
-{
-    std::cout << "\t\t\t\t\t============================================\n";
-    std::cout << "\t\t\t\t\t|       welcome to my simple displayer     |\n";
-    std::cout << "\t\t\t\t\t|              /==========/                |\n";
-    std::cout << "\t\t\t\t\t|             /          /                 |\n";
-    std::cout << "\t\t\t\t\t|            /          /                  |\n";
-    std::cout << "\t\t\t\t\t|           /          /                   |\n";
-    std::cout << "\t\t\t\t\t|          /          /                    |\n";
-    std::cout << "\t\t\t\t\t|         /==========/                     |\n";
-    std::cout << "\t\t\t\t\t|                                          |\n";
-    std::cout << "\t\t\t\t\t|               PRESS  ENTER               |\n";
-    std::cout << "\t\t\t\t\t============================================\n";
 }
 
 void Play::EventHandler()

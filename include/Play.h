@@ -16,9 +16,9 @@ public:
 
     static Song* PlayAudio(Song*, size_t);
 
-    static void Menu_UI();
+    //unique pointer must be refered
+    static bool SWITCH_INPUT(int, bool&, std::unique_ptr<Displayer>&, std::unique_ptr<Mode>&);
 
-    static void Start_UI();
 
     static void EventHandler();
 private:

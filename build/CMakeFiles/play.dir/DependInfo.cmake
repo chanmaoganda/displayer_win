@@ -13,6 +13,7 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "E:/git_codes/practice/src/Play.cpp" "CMakeFiles/play.dir/src/Play.cpp.obj" "gcc" "CMakeFiles/play.dir/src/Play.cpp.obj.d"
   "E:/git_codes/practice/src/songs/PopSongs.cpp" "CMakeFiles/play.dir/src/songs/PopSongs.cpp.obj" "gcc" "CMakeFiles/play.dir/src/songs/PopSongs.cpp.obj.d"
   "E:/git_codes/practice/src/songs/Song.cpp" "CMakeFiles/play.dir/src/songs/Song.cpp.obj" "gcc" "CMakeFiles/play.dir/src/songs/Song.cpp.obj.d"
+  "E:/git_codes/practice/src/ui/DisplayUI.cpp" "CMakeFiles/play.dir/src/ui/DisplayUI.cpp.obj" "gcc" "CMakeFiles/play.dir/src/ui/DisplayUI.cpp.obj.d"
   "" "libplay.dll" "gcc" "CMakeFiles/play.dir/link.d"
   )
 

@@ -33,6 +33,7 @@ void Displayer::ClearList()
     {
         //an iterator to a pointer, the pointer for Song 
         delete *song;
+        *song = nullptr;
     }
     list.release();
     list.reset(new std::vector<Song*>(MaxStackSize));

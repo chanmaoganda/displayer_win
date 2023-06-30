@@ -1,4 +1,5 @@
-CMakeFiles/play.dir/src/Play.cpp.obj: E:\git_codes\practice\src\Play.cpp \
+CMakeFiles/play.dir/src/Play_UI.cpp.obj: \
+ E:\git_codes\practice\src\Play_UI.cpp \
  E:/git_codes/practice/include/Play.h \
  E:/git_codes/practice/include/Displayer.h \
  E:/git_codes/practice/include/songs/Song.h \
@@ -418,6 +419,5 @@ CMakeFiles/play.dir/src/Play.cpp.obj: E:\git_codes\practice\src\Play.cpp \
  E:/Avania/caches/mingw64/x86_64-w64-mingw32/include/dsound.h \
  E:/Avania/caches/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/float.h \
  E:/Avania/caches/mingw64/x86_64-w64-mingw32/include/float.h \
- E:/git_codes/practice/include/ui/DIsplayUI.h \
  E:/git_codes/practice/include/Mode.h \
  E:/git_codes/practice/include/mode_states/PlayState.h

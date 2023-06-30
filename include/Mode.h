@@ -2,7 +2,7 @@
 #define MODE_H
 
 #include ".\mode_states\PlayState.h"
-
+#include <iostream>
 class Mode
 {
 public:
@@ -13,6 +13,8 @@ public:
     state::PlayState ModeState;
 public:
     Mode();
+
+    Mode(state::PlayState);
 
     ~Mode();
 };
