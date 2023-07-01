@@ -419,6 +419,7 @@ CMakeFiles/displayer.dir/main.cpp.obj
  E:/git_codes/practice/include/mode_states/PlayState.h
  E:/git_codes/practice/include/songs/PopSongs.h
  E:/git_codes/practice/include/songs/Song.h
+ E:/git_codes/practice/include/ui/DIsplayUI.h
 
 displayer.exe
  E:/git_codes/practice/build/CMakeFiles/displayer.dir/objects.a

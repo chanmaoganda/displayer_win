@@ -15,6 +15,8 @@ public:
 
     static void PlayMusic_UI();
 
+    static void Exit_UI();
+
 private:
     DisplayUI() = delete;
 

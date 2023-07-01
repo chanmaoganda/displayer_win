@@ -417,7 +417,8 @@ CMakeFiles/displayer.dir/main.cpp.obj: E:/git_codes/practice/main.cpp \
   E:/git_codes/practice/include/References.h \
   E:/git_codes/practice/include/mode_states/PlayState.h \
   E:/git_codes/practice/include/songs/PopSongs.h \
-  E:/git_codes/practice/include/songs/Song.h
+  E:/git_codes/practice/include/songs/Song.h \
+  E:/git_codes/practice/include/ui/DIsplayUI.h
 
 displayer.exe: CMakeFiles/displayer.dir/objects.a \
   E:/Avania/caches/mingw64/x86_64-w64-mingw32/lib/crt2.o \
@@ -1223,6 +1224,8 @@ E:/Avania/caches/mingw64/x86_64-w64-mingw32/include/pshpack2.h:
 E:/Avania/caches/mingw64/x86_64-w64-mingw32/include/pshpack8.h:
 
 E:/Avania/caches/mingw64/x86_64-w64-mingw32/include/pthread_signal.h:
+
+E:/git_codes/practice/include/ui/DIsplayUI.h:
 
 E:/Avania/caches/mingw64/x86_64-w64-mingw32/include/winioctl.h:
 

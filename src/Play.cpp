@@ -100,6 +100,10 @@ bool Play::SWITCH_INPUT(int input, bool& flag, std::unique_ptr<Displayer>& displ
             // display->ClearList();
             break;
     }
+
+    DisplayUI::Exit_UI();
+    
+    Sleep(1500);
     return flag;
 }
 

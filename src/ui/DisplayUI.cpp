@@ -62,3 +62,19 @@ void DisplayUI::PlayMusic_UI()
     std::cout << "\t\t\t\t\t|                                          |\n";
     std::cout << "\t\t\t\t\t============================================\n";
 }
+
+void DisplayUI::Exit_UI()
+{
+    std::cout << "\t\t\t\t\t============================================\n";
+    std::cout << "\t\t\t\t\t| ------ |   | -----                       |\n";
+    std::cout << "\t\t\t\t\t|    |   |   | |                           |\n";
+    std::cout << "\t\t\t\t\t|    |   |---| |----                       |\n";
+    std::cout << "\t\t\t\t\t|    |   |   | |                           |\n";
+    std::cout << "\t\t\t\t\t|    |   |   | |----                       |\n";
+    std::cout << "\t\t\t\t\t|                                          |\n";
+    std::cout << "\t\t\t\t\t|                                          |\n";
+    std::cout << "\t\t\t\t\t|                                          |\n";
+    std::cout << "\t\t\t\t\t|                                          |\n";
+    std::cout << "\t\t\t\t\t============================================\n";
+}
+
