@@ -40,5 +40,11 @@
   "command": "E:\\Avania\\caches\\mingw64\\bin\\g++.exe  @CMakeFiles/displayer.dir/includes_CXX.rsp -g -o CMakeFiles\\displayer.dir\\src\\ui\\DisplayUI.cpp.obj -c E:\\git_codes\\practice\\src\\ui\\DisplayUI.cpp",
   "file": "E:/git_codes/practice/src/ui/DisplayUI.cpp",
   "output": "CMakeFiles/displayer.dir/src/ui/DisplayUI.cpp.obj"
+},
+{
+  "directory": "E:/git_codes/practice/build",
+  "command": "E:\\Avania\\caches\\mingw64\\bin\\g++.exe  @CMakeFiles/displayer.dir/includes_CXX.rsp -g -o CMakeFiles\\displayer.dir\\src\\download\\DownloadURL.cpp.obj -c E:\\git_codes\\practice\\src\\download\\DownloadURL.cpp",
+  "file": "E:/git_codes/practice/src/download/DownloadURL.cpp",
+  "output": "CMakeFiles/displayer.dir/src/download/DownloadURL.cpp.obj"
 }
 ]

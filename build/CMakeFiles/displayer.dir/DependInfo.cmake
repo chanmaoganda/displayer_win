@@ -11,6 +11,7 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "E:/git_codes/practice/src/Displayer.cpp" "CMakeFiles/displayer.dir/src/Displayer.cpp.obj" "gcc" "CMakeFiles/displayer.dir/src/Displayer.cpp.obj.d"
   "E:/git_codes/practice/src/Mode.cpp" "CMakeFiles/displayer.dir/src/Mode.cpp.obj" "gcc" "CMakeFiles/displayer.dir/src/Mode.cpp.obj.d"
   "E:/git_codes/practice/src/Play.cpp" "CMakeFiles/displayer.dir/src/Play.cpp.obj" "gcc" "CMakeFiles/displayer.dir/src/Play.cpp.obj.d"
+  "E:/git_codes/practice/src/download/DownloadURL.cpp" "CMakeFiles/displayer.dir/src/download/DownloadURL.cpp.obj" "gcc" "CMakeFiles/displayer.dir/src/download/DownloadURL.cpp.obj.d"
   "E:/git_codes/practice/src/main.cpp" "CMakeFiles/displayer.dir/src/main.cpp.obj" "gcc" "CMakeFiles/displayer.dir/src/main.cpp.obj.d"
   "E:/git_codes/practice/src/songs/PopSongs.cpp" "CMakeFiles/displayer.dir/src/songs/PopSongs.cpp.obj" "gcc" "CMakeFiles/displayer.dir/src/songs/PopSongs.cpp.obj.d"
   "E:/git_codes/practice/src/songs/Song.cpp" "CMakeFiles/displayer.dir/src/songs/Song.cpp.obj" "gcc" "CMakeFiles/displayer.dir/src/songs/Song.cpp.obj.d"
