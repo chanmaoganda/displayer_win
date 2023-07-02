@@ -17,10 +17,13 @@ public:
 
     static void Exit_UI();
 
+    static std::ostream& SpacesOutput();
+
 private:
     DisplayUI() = delete;
 
     ~DisplayUI() = delete; 
 };
+
 
 #endif

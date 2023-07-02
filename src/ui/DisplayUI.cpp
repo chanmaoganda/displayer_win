@@ -1,5 +1,11 @@
 #include "..\..\include\ui\DisplayUI.h"
 
+std::ostream& DisplayUI::SpacesOutput()
+{
+    std::cout << "\t\t\t\t\t";
+    return std::cout;
+}
+
 void DisplayUI::Menu_UI()
 {
     std::cout << "\t\t\t\t\t============================================\n";

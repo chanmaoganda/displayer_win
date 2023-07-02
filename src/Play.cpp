@@ -16,6 +16,9 @@ void Play::Start()      //static method
     {
         system("clear");
         DisplayUI::Menu_UI();
+
+        DisplayUI::SpacesOutput() << "\t     TEXT YOUR CHOICE" << "\n";
+
         std::getline(std::cin, INPUT);
 
         try
@@ -109,6 +112,7 @@ bool Play::SWITCH_INPUT(int input, bool& flag, std::unique_ptr<Displayer>& displ
 
 Song* Play::PlayAudio(Song* song, size_t seconds)
 {
+    //don't forget to check weather the path is correct
     std::string* Text =new std::string("open E:\\git_codes\\practice\\src\\waves\\");
     *Text += song->getName();
     *Text += " alias song";
