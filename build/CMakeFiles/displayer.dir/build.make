@@ -95,6 +95,7 @@ displayer.exe: CMakeFiles/displayer.dir/build.make
 displayer.exe: CMakeFiles/displayer.dir/compiler_depend.ts
 displayer.exe: E:/git_codes/practice/external/libwinmm.a
 displayer.exe: E:/git_codes/practice/lib/libplay.dll
+displayer.exe: E:/git_codes/practice/lib/libdownload.dll
 displayer.exe: CMakeFiles/displayer.dir/linkLibs.rsp
 displayer.exe: CMakeFiles/displayer.dir/objects1.rsp
 displayer.exe: CMakeFiles/displayer.dir/link.txt

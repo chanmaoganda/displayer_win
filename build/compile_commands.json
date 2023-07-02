@@ -37,6 +37,18 @@
 },
 {
   "directory": "E:/git_codes/practice/build",
+  "command": "E:\\Avania\\caches\\mingw64\\bin\\g++.exe -Dplay_EXPORTS @CMakeFiles/play.dir/includes_CXX.rsp -g -o CMakeFiles\\play.dir\\src\\download\\DownloadURL.cpp.obj -c E:\\git_codes\\practice\\src\\download\\DownloadURL.cpp",
+  "file": "E:/git_codes/practice/src/download/DownloadURL.cpp",
+  "output": "CMakeFiles/play.dir/src/download/DownloadURL.cpp.obj"
+},
+{
+  "directory": "E:/git_codes/practice/build",
+  "command": "E:\\Avania\\caches\\mingw64\\bin\\g++.exe -Ddownload_EXPORTS @CMakeFiles/download.dir/includes_CXX.rsp -g -o CMakeFiles\\download.dir\\src\\download\\DownloadURL.cpp.obj -c E:\\git_codes\\practice\\src\\download\\DownloadURL.cpp",
+  "file": "E:/git_codes/practice/src/download/DownloadURL.cpp",
+  "output": "CMakeFiles/download.dir/src/download/DownloadURL.cpp.obj"
+},
+{
+  "directory": "E:/git_codes/practice/build",
   "command": "E:\\Avania\\caches\\mingw64\\bin\\g++.exe  @CMakeFiles/displayer.dir/includes_CXX.rsp -g -o CMakeFiles\\displayer.dir\\main.cpp.obj -c E:\\git_codes\\practice\\main.cpp",
   "file": "E:/git_codes/practice/main.cpp",
   "output": "CMakeFiles/displayer.dir/main.cpp.obj"

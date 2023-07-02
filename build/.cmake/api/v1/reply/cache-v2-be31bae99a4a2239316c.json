@@ -1344,18 +1344,6 @@
 			],
 			"type" : "STATIC",
 			"value" : "general;E:/git_codes/practice/external/libwinmm.a;"
-		},
-		{
-			"name" : "play_LIB_DEPENDS",
-			"properties" : 
-			[
-				{
-					"name" : "HELPSTRING",
-					"value" : "Dependencies for the target"
-				}
-			],
-			"type" : "STATIC",
-			"value" : "general;E:/git_codes/practice/external/libwinmm.a;general;E:/git_codes/practice/lib/libplay.dll;"
 		}
 	],
 	"kind" : "cache",

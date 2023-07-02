@@ -129,6 +129,19 @@ play/fast:
 .PHONY : play/fast
 
 #=============================================================================
+# Target rules for targets named download
+
+# Build rule for target.
+download: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 download
+.PHONY : download
+
+# fast build rule for target.
+download/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\download.dir\build.make CMakeFiles/download.dir/build
+.PHONY : download/fast
+
+#=============================================================================
 # Target rules for targets named displayer
 
 # Build rule for target.
@@ -237,6 +250,33 @@ src/Play.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\play.dir\build.make CMakeFiles/play.dir/src/Play.cpp.s
 .PHONY : src/Play.cpp.s
 
+src/download/DownloadURL.obj: src/download/DownloadURL.cpp.obj
+.PHONY : src/download/DownloadURL.obj
+
+# target to build an object file
+src/download/DownloadURL.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\play.dir\build.make CMakeFiles/play.dir/src/download/DownloadURL.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\download.dir\build.make CMakeFiles/download.dir/src/download/DownloadURL.cpp.obj
+.PHONY : src/download/DownloadURL.cpp.obj
+
+src/download/DownloadURL.i: src/download/DownloadURL.cpp.i
+.PHONY : src/download/DownloadURL.i
+
+# target to preprocess a source file
+src/download/DownloadURL.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\play.dir\build.make CMakeFiles/play.dir/src/download/DownloadURL.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\download.dir\build.make CMakeFiles/download.dir/src/download/DownloadURL.cpp.i
+.PHONY : src/download/DownloadURL.cpp.i
+
+src/download/DownloadURL.s: src/download/DownloadURL.cpp.s
+.PHONY : src/download/DownloadURL.s
+
+# target to generate assembly for a file
+src/download/DownloadURL.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\play.dir\build.make CMakeFiles/play.dir/src/download/DownloadURL.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\download.dir\build.make CMakeFiles/download.dir/src/download/DownloadURL.cpp.s
+.PHONY : src/download/DownloadURL.cpp.s
+
 src/songs/PopSongs.obj: src/songs/PopSongs.cpp.obj
 .PHONY : src/songs/PopSongs.obj
 
@@ -318,6 +358,7 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... displayer
+	@echo ... download
 	@echo ... play
 	@echo ... main.obj
 	@echo ... main.i
@@ -331,6 +372,9 @@ help:
 	@echo ... src/Play.obj
 	@echo ... src/Play.i
 	@echo ... src/Play.s
+	@echo ... src/download/DownloadURL.obj
+	@echo ... src/download/DownloadURL.i
+	@echo ... src/download/DownloadURL.s
 	@echo ... src/songs/PopSongs.obj
 	@echo ... src/songs/PopSongs.i
 	@echo ... src/songs/PopSongs.s
