@@ -12,8 +12,6 @@ class Play
 public:
     static void Start();
 
-    static Song* PlayAudio(Song*);
-
     static Song* PlayAudio(Song*, size_t);
 
     //unique pointer must be refered

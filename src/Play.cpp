@@ -57,7 +57,7 @@ bool Play::SWITCH_INPUT(int input, bool& flag, std::unique_ptr<Displayer>& displ
             switch(choice)
             {
                 case '1':
-                    
+                    PlayAudio(new Song(new std::string("jiang_nan.mp3")), 5);
                     break;
                 case '2':
                     
@@ -101,26 +101,15 @@ bool Play::SWITCH_INPUT(int input, bool& flag, std::unique_ptr<Displayer>& displ
             break;
     }
 
-    DisplayUI::Exit_UI();
+    // DisplayUI::Exit_UI();
     
     Sleep(1500);
     return flag;
 }
 
-Song* Play::PlayAudio(Song* song)
-{
-    mciSendString(TEXT("open E:\\git_codes\\practice\\src\\waves\\jiang_nan.mp3 alias song"), NULL, 0,NULL);
-    // std::string str = "open E:\\git_codes\\practice\\src\\waves\\" + song->getName() + "alias song";
-    // mciSendString(TEXT(str), NULL, 0, NULL);
-    mciSendString(TEXT("play song"),NULL,0,NULL);
-
-	mciSendString(TEXT("close song"),NULL,0,NULL);
-    return song;
-}
-
 Song* Play::PlayAudio(Song* song, size_t seconds)
 {
-    std::string* Text =new std::string("open E:\\git_codes\\practoce\\src\\waves\\");
+    std::string* Text =new std::string("open E:\\git_codes\\practice\\src\\waves\\");
     *Text += song->getName();
     *Text += " alias song";
 
