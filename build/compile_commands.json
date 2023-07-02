@@ -1,44 +1,44 @@
 [
 {
   "directory": "E:/git_codes/practice/build",
-  "command": "E:\\Avania\\caches\\mingw64\\bin\\g++.exe -Dplay_EXPORTS @CMakeFiles/play.dir/includes_CXX.rsp -g -o CMakeFiles\\play.dir\\src\\Displayer.cpp.obj -c E:\\git_codes\\practice\\src\\Displayer.cpp",
+  "command": "E:\\Avania\\caches\\mingw64\\bin\\g++.exe  @CMakeFiles/displayer.dir/includes_CXX.rsp -g -o CMakeFiles\\displayer.dir\\src\\Displayer.cpp.obj -c E:\\git_codes\\practice\\src\\Displayer.cpp",
   "file": "E:/git_codes/practice/src/Displayer.cpp",
-  "output": "CMakeFiles/play.dir/src/Displayer.cpp.obj"
+  "output": "CMakeFiles/displayer.dir/src/Displayer.cpp.obj"
 },
 {
   "directory": "E:/git_codes/practice/build",
-  "command": "E:\\Avania\\caches\\mingw64\\bin\\g++.exe -Dplay_EXPORTS @CMakeFiles/play.dir/includes_CXX.rsp -g -o CMakeFiles\\play.dir\\src\\Mode.cpp.obj -c E:\\git_codes\\practice\\src\\Mode.cpp",
+  "command": "E:\\Avania\\caches\\mingw64\\bin\\g++.exe  @CMakeFiles/displayer.dir/includes_CXX.rsp -g -o CMakeFiles\\displayer.dir\\src\\Mode.cpp.obj -c E:\\git_codes\\practice\\src\\Mode.cpp",
   "file": "E:/git_codes/practice/src/Mode.cpp",
-  "output": "CMakeFiles/play.dir/src/Mode.cpp.obj"
+  "output": "CMakeFiles/displayer.dir/src/Mode.cpp.obj"
 },
 {
   "directory": "E:/git_codes/practice/build",
-  "command": "E:\\Avania\\caches\\mingw64\\bin\\g++.exe -Dplay_EXPORTS @CMakeFiles/play.dir/includes_CXX.rsp -g -o CMakeFiles\\play.dir\\src\\Play.cpp.obj -c E:\\git_codes\\practice\\src\\Play.cpp",
+  "command": "E:\\Avania\\caches\\mingw64\\bin\\g++.exe  @CMakeFiles/displayer.dir/includes_CXX.rsp -g -o CMakeFiles\\displayer.dir\\src\\Play.cpp.obj -c E:\\git_codes\\practice\\src\\Play.cpp",
   "file": "E:/git_codes/practice/src/Play.cpp",
-  "output": "CMakeFiles/play.dir/src/Play.cpp.obj"
+  "output": "CMakeFiles/displayer.dir/src/Play.cpp.obj"
 },
 {
   "directory": "E:/git_codes/practice/build",
-  "command": "E:\\Avania\\caches\\mingw64\\bin\\g++.exe -Dplay_EXPORTS @CMakeFiles/play.dir/includes_CXX.rsp -g -o CMakeFiles\\play.dir\\src\\songs\\PopSongs.cpp.obj -c E:\\git_codes\\practice\\src\\songs\\PopSongs.cpp",
+  "command": "E:\\Avania\\caches\\mingw64\\bin\\g++.exe  @CMakeFiles/displayer.dir/includes_CXX.rsp -g -o CMakeFiles\\displayer.dir\\src\\main.cpp.obj -c E:\\git_codes\\practice\\src\\main.cpp",
+  "file": "E:/git_codes/practice/src/main.cpp",
+  "output": "CMakeFiles/displayer.dir/src/main.cpp.obj"
+},
+{
+  "directory": "E:/git_codes/practice/build",
+  "command": "E:\\Avania\\caches\\mingw64\\bin\\g++.exe  @CMakeFiles/displayer.dir/includes_CXX.rsp -g -o CMakeFiles\\displayer.dir\\src\\songs\\PopSongs.cpp.obj -c E:\\git_codes\\practice\\src\\songs\\PopSongs.cpp",
   "file": "E:/git_codes/practice/src/songs/PopSongs.cpp",
-  "output": "CMakeFiles/play.dir/src/songs/PopSongs.cpp.obj"
+  "output": "CMakeFiles/displayer.dir/src/songs/PopSongs.cpp.obj"
 },
 {
   "directory": "E:/git_codes/practice/build",
-  "command": "E:\\Avania\\caches\\mingw64\\bin\\g++.exe -Dplay_EXPORTS @CMakeFiles/play.dir/includes_CXX.rsp -g -o CMakeFiles\\play.dir\\src\\songs\\Song.cpp.obj -c E:\\git_codes\\practice\\src\\songs\\Song.cpp",
+  "command": "E:\\Avania\\caches\\mingw64\\bin\\g++.exe  @CMakeFiles/displayer.dir/includes_CXX.rsp -g -o CMakeFiles\\displayer.dir\\src\\songs\\Song.cpp.obj -c E:\\git_codes\\practice\\src\\songs\\Song.cpp",
   "file": "E:/git_codes/practice/src/songs/Song.cpp",
-  "output": "CMakeFiles/play.dir/src/songs/Song.cpp.obj"
+  "output": "CMakeFiles/displayer.dir/src/songs/Song.cpp.obj"
 },
 {
   "directory": "E:/git_codes/practice/build",
-  "command": "E:\\Avania\\caches\\mingw64\\bin\\g++.exe -Dplay_EXPORTS @CMakeFiles/play.dir/includes_CXX.rsp -g -o CMakeFiles\\play.dir\\src\\ui\\DisplayUI.cpp.obj -c E:\\git_codes\\practice\\src\\ui\\DisplayUI.cpp",
+  "command": "E:\\Avania\\caches\\mingw64\\bin\\g++.exe  @CMakeFiles/displayer.dir/includes_CXX.rsp -g -o CMakeFiles\\displayer.dir\\src\\ui\\DisplayUI.cpp.obj -c E:\\git_codes\\practice\\src\\ui\\DisplayUI.cpp",
   "file": "E:/git_codes/practice/src/ui/DisplayUI.cpp",
-  "output": "CMakeFiles/play.dir/src/ui/DisplayUI.cpp.obj"
-},
-{
-  "directory": "E:/git_codes/practice/build",
-  "command": "E:\\Avania\\caches\\mingw64\\bin\\g++.exe  @CMakeFiles/displayer.dir/includes_CXX.rsp -g -o CMakeFiles\\displayer.dir\\main.cpp.obj -c E:\\git_codes\\practice\\main.cpp",
-  "file": "E:/git_codes/practice/main.cpp",
-  "output": "CMakeFiles/displayer.dir/main.cpp.obj"
+  "output": "CMakeFiles/displayer.dir/src/ui/DisplayUI.cpp.obj"
 }
 ]

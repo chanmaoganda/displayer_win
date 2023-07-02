@@ -1,5 +1,5 @@
 #include <iostream>
-#include ".\include\Play.h"
+#include "..\..\include\Play.h"
 
 
 int main()

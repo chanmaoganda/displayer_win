@@ -20,6 +20,6 @@ set(CPACK_PROJECT_VERSION ${PROJECT_VERSION})
 set(EXTERNAL_DIR ${PROJECT_SOURCE_DIR}/external)
 set(LIB_DIR ${PROJECT_SOURCE_DIR}/lib)
 
-add_executable(displayer ${SRC_CUR} ${SRC_DOWNLOAD})
+add_executable(displayer ${SRC_SUB})
 
 target_link_libraries(displayer Winmm.lib)
