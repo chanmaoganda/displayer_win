@@ -50,6 +50,5 @@ set(CMAKE_MAKEFILE_PRODUCTS
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/play.dir/DependInfo.cmake"
-  "CMakeFiles/download.dir/DependInfo.cmake"
   "CMakeFiles/displayer.dir/DependInfo.cmake"
   )

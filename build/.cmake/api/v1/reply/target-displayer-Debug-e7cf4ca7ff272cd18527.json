@@ -2,13 +2,10 @@
 	"artifacts" : 
 	[
 		{
-			"path" : "libdownload.dll"
+			"path" : "displayer.exe"
 		},
 		{
-			"path" : "libdownload.dll.a"
-		},
-		{
-			"path" : "libdownload.pdb"
+			"path" : "displayer.pdb"
 		}
 	],
 	"backtrace" : 1,
@@ -16,7 +13,7 @@
 	{
 		"commands" : 
 		[
-			"add_library",
+			"add_executable",
 			"include_directories"
 		],
 		"files" : 
@@ -31,7 +28,7 @@
 			{
 				"command" : 0,
 				"file" : 0,
-				"line" : 24,
+				"line" : 33,
 				"parent" : 0
 			},
 			{
@@ -69,12 +66,6 @@
 					"fragment" : "-g"
 				}
 			],
-			"defines" : 
-			[
-				{
-					"define" : "download_EXPORTS"
-				}
-			],
 			"includes" : 
 			[
 				{
@@ -101,18 +92,27 @@
 			]
 		}
 	],
-	"id" : "download::@6890427a1f51a3e7e1df",
+	"id" : "displayer::@6890427a1f51a3e7e1df",
 	"link" : 
 	{
 		"commandFragments" : 
 		[
 			{
+				"fragment" : "-g",
+				"role" : "flags"
+			},
+			{
 				"fragment" : "",
 				"role" : "flags"
 			},
 			{
-				"fragment" : "-Wl,--dependency-file,CMakeFiles\\download.dir\\link.d",
+				"fragment" : "-Wl,--dependency-file,CMakeFiles\\displayer.dir\\link.d",
 				"role" : "flags"
+			},
+			{
+				"backtrace" : 1,
+				"fragment" : "-l./lib",
+				"role" : "libraries"
 			},
 			{
 				"fragment" : "-lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32",
@@ -121,8 +121,8 @@
 		],
 		"language" : "CXX"
 	},
-	"name" : "download",
-	"nameOnDisk" : "libdownload.dll",
+	"name" : "displayer",
+	"nameOnDisk" : "displayer.exe",
 	"paths" : 
 	{
 		"build" : ".",
@@ -143,9 +143,9 @@
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "src/download/DownloadURL.cpp",
+			"path" : "main.cpp",
 			"sourceGroupIndex" : 0
 		}
 	],
-	"type" : "SHARED_LIBRARY"
+	"type" : "EXECUTABLE"
 }

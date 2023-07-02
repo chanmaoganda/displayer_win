@@ -5,8 +5,6 @@ file(REMOVE_RECURSE
   "CMakeFiles/play.dir/src/Mode.cpp.obj.d"
   "CMakeFiles/play.dir/src/Play.cpp.obj"
   "CMakeFiles/play.dir/src/Play.cpp.obj.d"
-  "CMakeFiles/play.dir/src/download/DownloadURL.cpp.obj"
-  "CMakeFiles/play.dir/src/download/DownloadURL.cpp.obj.d"
   "CMakeFiles/play.dir/src/songs/PopSongs.cpp.obj"
   "CMakeFiles/play.dir/src/songs/PopSongs.cpp.obj.d"
   "CMakeFiles/play.dir/src/songs/Song.cpp.obj"
