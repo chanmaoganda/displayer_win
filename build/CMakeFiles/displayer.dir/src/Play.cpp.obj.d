@@ -1,7 +1,8 @@
 CMakeFiles/displayer.dir/src/Play.cpp.obj: \
- E:\git_codes\practice\src\Play.cpp E:/git_codes/practice/include/Play.h \
- E:/git_codes/practice/include/Displayer.h \
- E:/git_codes/practice/include/songs/Song.h \
+ E:\git_codes\displayer\src\Play.cpp \
+ E:/git_codes/displayer/include/Play.h \
+ E:/git_codes/displayer/include/Displayer.h \
+ E:/git_codes/displayer/include/songs/Song.h \
  E:/Avania/caches/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/string \
  E:/Avania/caches/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/requires_hosted.h \
  E:/Avania/caches/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32/bits/c++config.h \
@@ -144,8 +145,8 @@ CMakeFiles/displayer.dir/src/Play.cpp.obj: \
  E:/Avania/caches/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/stl_vector.h \
  E:/Avania/caches/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/stl_bvector.h \
  E:/Avania/caches/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/vector.tcc \
- E:/git_codes/practice/include/songs/PopSongs.h \
- E:/git_codes/practice/include/songs/Song.h \
+ E:/git_codes/displayer/include/songs/PopSongs.h \
+ E:/git_codes/displayer/include/songs/Song.h \
  E:/Avania/caches/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/iostream \
  E:/Avania/caches/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/ostream \
  E:/Avania/caches/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/ios \
@@ -169,7 +170,7 @@ CMakeFiles/displayer.dir/src/Play.cpp.obj: \
  E:/Avania/caches/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/ostream.tcc \
  E:/Avania/caches/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/istream \
  E:/Avania/caches/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/istream.tcc \
- E:/git_codes/practice/include/References.h \
+ E:/git_codes/displayer/include/References.h \
  E:/Avania/caches/mingw64/x86_64-w64-mingw32/include/windows.h \
  E:/Avania/caches/mingw64/x86_64-w64-mingw32/include/sdkddkver.h \
  E:/Avania/caches/mingw64/x86_64-w64-mingw32/include/excpt.h \
@@ -418,6 +419,6 @@ CMakeFiles/displayer.dir/src/Play.cpp.obj: \
  E:/Avania/caches/mingw64/x86_64-w64-mingw32/include/dsound.h \
  E:/Avania/caches/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/float.h \
  E:/Avania/caches/mingw64/x86_64-w64-mingw32/include/float.h \
- E:/git_codes/practice/include/ui/DIsplayUI.h \
- E:/git_codes/practice/include/Mode.h \
- E:/git_codes/practice/include/mode_states/PlayState.h
+ E:/git_codes/displayer/include/ui/DIsplayUI.h \
+ E:/git_codes/displayer/include/Mode.h \
+ E:/git_codes/displayer/include/mode_states/PlayState.h

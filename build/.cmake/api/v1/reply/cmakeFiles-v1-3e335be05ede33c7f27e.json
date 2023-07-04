@@ -154,8 +154,8 @@
 	"kind" : "cmakeFiles",
 	"paths" : 
 	{
-		"build" : "E:/git_codes/practice/build",
-		"source" : "E:/git_codes/practice"
+		"build" : "E:/git_codes/displayer/build",
+		"source" : "E:/git_codes/displayer"
 	},
 	"version" : 
 	{

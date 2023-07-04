@@ -129,7 +129,6 @@ Song* Play::PlayAudio(Song* song, size_t seconds)
 
 	mciSendString(TEXT("close song"),NULL,0,NULL);
     return song;
-
 }
 
 void Play::EventHandler()

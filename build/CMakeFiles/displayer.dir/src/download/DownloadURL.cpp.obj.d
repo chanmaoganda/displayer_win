@@ -1,6 +1,6 @@
 CMakeFiles/displayer.dir/src/download/DownloadURL.cpp.obj: \
- E:\git_codes\practice\src\download\DownloadURL.cpp \
- E:/git_codes/practice/include/download/DownloadURL.h \
+ E:\git_codes\displayer\src\download\DownloadURL.cpp \
+ E:/git_codes/displayer/include/download/DownloadURL.h \
  E:/Avania/caches/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/iostream \
  E:/Avania/caches/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/requires_hosted.h \
  E:/Avania/caches/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32/bits/c++config.h \

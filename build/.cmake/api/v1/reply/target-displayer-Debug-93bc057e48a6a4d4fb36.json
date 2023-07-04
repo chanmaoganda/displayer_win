@@ -83,23 +83,23 @@
 			[
 				{
 					"backtrace" : 3,
-					"path" : "E:/git_codes/practice/include"
+					"path" : "E:/git_codes/displayer/include"
 				},
 				{
 					"backtrace" : 4,
-					"path" : "E:/git_codes/practice/include/mode_state"
+					"path" : "E:/git_codes/displayer/include/mode_state"
 				},
 				{
 					"backtrace" : 5,
-					"path" : "E:/git_codes/practice/include/songs"
+					"path" : "E:/git_codes/displayer/include/songs"
 				},
 				{
 					"backtrace" : 6,
-					"path" : "E:/git_codes/practice/include/ui"
+					"path" : "E:/git_codes/displayer/include/ui"
 				},
 				{
 					"backtrace" : 7,
-					"path" : "E:/git_codes/practice/include/download"
+					"path" : "E:/git_codes/displayer/include/download"
 				}
 			],
 			"language" : "CXX",

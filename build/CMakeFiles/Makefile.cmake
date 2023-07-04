@@ -29,7 +29,7 @@ set(CMAKE_MAKEFILE_DEPENDS
   "E:/Avania/caches/cmake/share/cmake-3.27/Modules/Platform/Windows-windres.cmake"
   "E:/Avania/caches/cmake/share/cmake-3.27/Modules/Platform/Windows.cmake"
   "E:/Avania/caches/cmake/share/cmake-3.27/Modules/Platform/WindowsPaths.cmake"
-  "E:/git_codes/practice/CMakeLists.txt"
+  "E:/git_codes/displayer/CMakeLists.txt"
   "CMakeFiles/3.27.0-rc3/CMakeCCompiler.cmake"
   "CMakeFiles/3.27.0-rc3/CMakeCXXCompiler.cmake"
   "CMakeFiles/3.27.0-rc3/CMakeRCCompiler.cmake"

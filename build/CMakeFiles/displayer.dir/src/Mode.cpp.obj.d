@@ -1,6 +1,7 @@
 CMakeFiles/displayer.dir/src/Mode.cpp.obj: \
- E:\git_codes\practice\src\Mode.cpp E:/git_codes/practice/include/Mode.h \
- E:/git_codes/practice/include/mode_states/PlayState.h \
+ E:\git_codes\displayer\src\Mode.cpp \
+ E:/git_codes/displayer/include/Mode.h \
+ E:/git_codes/displayer/include/mode_states/PlayState.h \
  E:/Avania/caches/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/iostream \
  E:/Avania/caches/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/requires_hosted.h \
  E:/Avania/caches/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32/bits/c++config.h \

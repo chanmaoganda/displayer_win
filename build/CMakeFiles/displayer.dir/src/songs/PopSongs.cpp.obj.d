@@ -1,7 +1,7 @@
 CMakeFiles/displayer.dir/src/songs/PopSongs.cpp.obj: \
- E:\git_codes\practice\src\songs\PopSongs.cpp \
- E:/git_codes/practice/include/songs/PopSongs.h \
- E:/git_codes/practice/include/songs/Song.h \
+ E:\git_codes\displayer\src\songs\PopSongs.cpp \
+ E:/git_codes/displayer/include/songs/PopSongs.h \
+ E:/git_codes/displayer/include/songs/Song.h \
  E:/Avania/caches/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/string \
  E:/Avania/caches/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/requires_hosted.h \
  E:/Avania/caches/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32/bits/c++config.h \

@@ -5,6 +5,5 @@
 int main()
 {
     Play::Start();
-
     return 0;
 }
