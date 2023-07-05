@@ -11,6 +11,7 @@ PopSongs::PopSongs()
 PopSongs::PopSongs(std::string* Name)
 {
     Song();
+    //TODO Implementation in derived class not solved
     Implementer;
 }
 
