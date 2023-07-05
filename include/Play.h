@@ -17,7 +17,6 @@ public:
     //unique pointer must be refered
     static bool SWITCH_INPUT(int, bool&, std::unique_ptr<Displayer>&, std::unique_ptr<Mode>&);
 
-
     static void EventHandler();
 private:
     Play() = delete;

@@ -2,6 +2,7 @@
 #define SONGS_H
 
 #include <string>
+#include <memory>
 class Song
 {
 public:
@@ -16,7 +17,10 @@ public:
     std::string reName(std::string*);
 
 protected:
-    std::string* file_name;
+    // std::string* file_name;
+    struct Implement;
+
+    std::unique_ptr<Implement> Implementer;
 };
 
 

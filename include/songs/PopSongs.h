@@ -3,7 +3,7 @@
 
 #include ".\Song.h"
 
-namespace SONGS
+namespace DerivedSongs
 {
 
 

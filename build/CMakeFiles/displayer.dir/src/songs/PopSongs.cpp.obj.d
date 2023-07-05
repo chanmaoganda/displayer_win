@@ -98,4 +98,45 @@ CMakeFiles/displayer.dir/src/songs/PopSongs.cpp.obj: \
  E:/Avania/caches/mingw64/x86_64-w64-mingw32/include/stddef.h \
  E:/Avania/caches/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/uses_allocator.h \
  E:/Avania/caches/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/uses_allocator_args.h \
- E:/Avania/caches/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/tuple
+ E:/Avania/caches/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/tuple \
+ E:/Avania/caches/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/memory \
+ E:/Avania/caches/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/stl_tempbuf.h \
+ E:/Avania/caches/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/stl_uninitialized.h \
+ E:/Avania/caches/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/stl_raw_storage_iter.h \
+ E:/Avania/caches/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/align.h \
+ E:/Avania/caches/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/stdint.h \
+ E:/Avania/caches/mingw64/x86_64-w64-mingw32/include/stdint.h \
+ E:/Avania/caches/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/unique_ptr.h \
+ E:/Avania/caches/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/shared_ptr.h \
+ E:/Avania/caches/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/shared_ptr_base.h \
+ E:/Avania/caches/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/typeinfo \
+ E:/Avania/caches/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/allocated_ptr.h \
+ E:/Avania/caches/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/ext/aligned_buffer.h \
+ E:/Avania/caches/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/ext/atomicity.h \
+ E:/Avania/caches/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32/bits/gthr.h \
+ E:/Avania/caches/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32/bits/gthr-default.h \
+ E:/Avania/caches/mingw64/x86_64-w64-mingw32/include/pthread.h \
+ E:/Avania/caches/mingw64/x86_64-w64-mingw32/include/sys/types.h \
+ E:/Avania/caches/mingw64/x86_64-w64-mingw32/include/process.h \
+ E:/Avania/caches/mingw64/x86_64-w64-mingw32/include/corecrt_startup.h \
+ E:/Avania/caches/mingw64/x86_64-w64-mingw32/include/signal.h \
+ E:/Avania/caches/mingw64/x86_64-w64-mingw32/include/pthread_signal.h \
+ E:/Avania/caches/mingw64/x86_64-w64-mingw32/include/time.h \
+ E:/Avania/caches/mingw64/x86_64-w64-mingw32/include/sys/timeb.h \
+ E:/Avania/caches/mingw64/x86_64-w64-mingw32/include/sec_api/sys/timeb_s.h \
+ E:/Avania/caches/mingw64/x86_64-w64-mingw32/include/_timeval.h \
+ E:/Avania/caches/mingw64/x86_64-w64-mingw32/include/pthread_time.h \
+ E:/Avania/caches/mingw64/x86_64-w64-mingw32/include/pthread_compat.h \
+ E:/Avania/caches/mingw64/x86_64-w64-mingw32/include/pthread_unistd.h \
+ E:/Avania/caches/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32/bits/atomic_word.h \
+ E:/Avania/caches/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/ext/concurrence.h \
+ E:/Avania/caches/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/exception \
+ E:/Avania/caches/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/exception_ptr.h \
+ E:/Avania/caches/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/cxxabi_init_exception.h \
+ E:/Avania/caches/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/nested_exception.h \
+ E:/Avania/caches/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/shared_ptr_atomic.h \
+ E:/Avania/caches/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/atomic_base.h \
+ E:/Avania/caches/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/atomic_lockfree_defines.h \
+ E:/Avania/caches/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/backward/auto_ptr.h \
+ E:/Avania/caches/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/pstl/glue_memory_defs.h \
+ E:/Avania/caches/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/pstl/execution_defs.h

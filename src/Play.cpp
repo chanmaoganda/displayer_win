@@ -93,7 +93,7 @@ bool Play::SWITCH_INPUT(int input, bool& flag, std::unique_ptr<Displayer>& displ
         case 4:
             
             std::getline(std::cin, *song_name);
-            song = new SONGS::PopSongs(new std::string(*song_name));
+            song = new DerivedSongs::PopSongs(new std::string(*song_name));
             display->AddSongs(song);
 
             std::cout << "playing music\n";

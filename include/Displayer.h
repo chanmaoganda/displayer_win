@@ -36,9 +36,12 @@ public:
 
 //private varibles
 private:
-    const int MaxStackSize;
+    // const int MaxStackSize;
+    // std::unique_ptr<std::vector<Song*>> list;
+    struct Implement;
+
+    std::unique_ptr<Implement> Implementer;
     
-    std::unique_ptr<std::vector<Song*>> list;
 };
 
 

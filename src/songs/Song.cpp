@@ -1,29 +1,47 @@
 #include "..\..\include\songs\Song.h"
 
+struct Song::Implement
+{
+    Implement();
+
+    Implement(std::string* __File_Name);
+
+    std::string* FileName;
+};
+
+Song::Implement::Implement()
+{
+    FileName = std::move(new std::string(""));
+}
+
+Song::Implement::Implement(std::string* __File_Name)
+{
+    FileName = std::move(__File_Name);
+}
 
 Song::Song()
 {
-    file_name = new std::string("");
+    Implementer.reset(new Implement());
 }
 
 Song::Song(std::string* Name)
 {
-    file_name = std::move(Name);
+    Implementer->FileName = std::move(Name);
 }
 
 Song::~Song()
 {
-    delete file_name;
-    file_name = NULL;
+    delete Implementer->FileName;
+    Implementer->FileName = nullptr;
 }
 
 std::string Song::getName()
 {
-    return *file_name;
+    return *(Implementer->FileName);
 }
 
 std::string Song::reName(std::string* name)
 {
-    file_name = std::move(name);
-    return *file_name;
+    Implementer->FileName = std::move(name);
+    return *(Implementer->FileName);
 }

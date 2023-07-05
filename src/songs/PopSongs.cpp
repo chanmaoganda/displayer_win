@@ -1,6 +1,6 @@
-#include "..\..\include\songs\PopSongs.h"
+ #include "..\..\include\songs\PopSongs.h"
 
-namespace SONGS
+namespace DerivedSongs
 {
 
 PopSongs::PopSongs()
@@ -11,7 +11,7 @@ PopSongs::PopSongs()
 PopSongs::PopSongs(std::string* Name)
 {
     Song();
-    file_name = std::move(Name);
+    Implementer;
 }
 
 PopSongs::~PopSongs()
