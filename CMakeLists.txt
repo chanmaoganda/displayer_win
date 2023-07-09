@@ -1,4 +1,4 @@
-cmake_minimum_required(VERSION 3.5.1)
+﻿cmake_minimum_required(VERSION 3.5.1)
 
 include_directories(include)
 include_directories(include/mode_state)

@@ -6,7 +6,7 @@
 class Mode
 {
 public:
-    void ChangeMode(state::PlayState);
+    void ChangeMode(state::PlayState change_state);
 
     void ClearSettings();
 

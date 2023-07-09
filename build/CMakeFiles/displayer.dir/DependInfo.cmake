@@ -9,6 +9,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "E:/git_codes/displayer/src/Displayer.cpp" "CMakeFiles/displayer.dir/src/Displayer.cpp.obj" "gcc" "CMakeFiles/displayer.dir/src/Displayer.cpp.obj.d"
+  "E:/git_codes/displayer/src/Handler.cpp" "CMakeFiles/displayer.dir/src/Handler.cpp.obj" "gcc" "CMakeFiles/displayer.dir/src/Handler.cpp.obj.d"
   "E:/git_codes/displayer/src/Mode.cpp" "CMakeFiles/displayer.dir/src/Mode.cpp.obj" "gcc" "CMakeFiles/displayer.dir/src/Mode.cpp.obj.d"
   "E:/git_codes/displayer/src/Play.cpp" "CMakeFiles/displayer.dir/src/Play.cpp.obj" "gcc" "CMakeFiles/displayer.dir/src/Play.cpp.obj.d"
   "E:/git_codes/displayer/src/download/DownloadURL.cpp" "CMakeFiles/displayer.dir/src/download/DownloadURL.cpp.obj" "gcc" "CMakeFiles/displayer.dir/src/download/DownloadURL.cpp.obj.d"

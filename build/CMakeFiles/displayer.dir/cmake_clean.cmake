@@ -1,6 +1,8 @@
 file(REMOVE_RECURSE
   "CMakeFiles/displayer.dir/src/Displayer.cpp.obj"
   "CMakeFiles/displayer.dir/src/Displayer.cpp.obj.d"
+  "CMakeFiles/displayer.dir/src/Handler.cpp.obj"
+  "CMakeFiles/displayer.dir/src/Handler.cpp.obj.d"
   "CMakeFiles/displayer.dir/src/Mode.cpp.obj"
   "CMakeFiles/displayer.dir/src/Mode.cpp.obj.d"
   "CMakeFiles/displayer.dir/src/Play.cpp.obj"

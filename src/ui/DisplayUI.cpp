@@ -1,12 +1,13 @@
 #include "..\..\include\ui\DisplayUI.h"
 
-std::ostream& DisplayUI::SpacesOutput()
+//print spaces enough to adapt the UI
+std::ostream& DisplayUI::SpacesOutput() noexcept
 {
     std::cout << "\t\t\t\t\t";
     return std::cout;
 }
 
-void DisplayUI::Menu_UI()
+void DisplayUI::Menu_UI() noexcept
 {
     std::cout << "\t\t\t\t\t============================================\n";
     std::cout << "\t\t\t\t\t|       welcome to my simple displayer     |\n";
@@ -22,7 +23,7 @@ void DisplayUI::Menu_UI()
 
 }
 
-void DisplayUI::Start_UI()
+void DisplayUI::Start_UI() noexcept
 {
     std::cout << "\t\t\t\t\t============================================\n";
     std::cout << "\t\t\t\t\t|       welcome to my simple displayer     |\n";
@@ -37,7 +38,7 @@ void DisplayUI::Start_UI()
     std::cout << "\t\t\t\t\t============================================\n";
 }
 
-void DisplayUI::Mode_UI()
+void DisplayUI::Mode_UI() noexcept
 {
     std::cout << "\t\t\t\t\t============================================\n";
     std::cout << "\t\t\t\t\t|             select your mode             |\n";
@@ -54,7 +55,7 @@ void DisplayUI::Mode_UI()
 
 }
 
-void DisplayUI::PlayMusic_UI()
+void DisplayUI::PlayMusic_UI() noexcept
 {
     std::cout << "\t\t\t\t\t============================================\n";
     std::cout << "\t\t\t\t\t|             select your song             |\n";
@@ -69,7 +70,7 @@ void DisplayUI::PlayMusic_UI()
     std::cout << "\t\t\t\t\t============================================\n";
 }
 
-void DisplayUI::Exit_UI()
+void DisplayUI::Exit_UI() noexcept
 {
     std::cout << "\t\t\t\t\t============================================\n";
     std::cout << "\t\t\t\t\t| ------ |   | -----                       |\n";

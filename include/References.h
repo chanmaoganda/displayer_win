@@ -7,7 +7,7 @@
 
 #include ".\UI\DIsplayUI.h"
 #include ".\Mode.h"
-
+#include "Handler.h"
 
 
 #endif

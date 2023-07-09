@@ -4,6 +4,7 @@
 
 int main()
 {
-    Play::Start();
+    std::unique_ptr<Play> play(new Play());
+    play->Start();
     return 0;
 }

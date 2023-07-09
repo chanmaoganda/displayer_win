@@ -7,17 +7,17 @@ class DisplayUI
 {
 public:
 
-    static void Menu_UI();
+    static void Menu_UI() noexcept;
 
-    static void Start_UI();
+    static void Start_UI() noexcept;
 
-    static void Mode_UI();
+    static void Mode_UI() noexcept;
 
-    static void PlayMusic_UI();
+    static void PlayMusic_UI() noexcept;
 
-    static void Exit_UI();
+    static void Exit_UI() noexcept;
 
-    static std::ostream& SpacesOutput();
+    static std::ostream& SpacesOutput() noexcept;
 
 private:
     DisplayUI() = delete;

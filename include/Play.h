@@ -10,18 +10,25 @@
 class Play
 {
 public:
-    static void Start();
+    void Start();
 
-    static Song* PlayAudio(Song*, size_t);
+    Song* PlayAudio(Song*, size_t);
 
     //unique pointer must be refered
-    static bool SWITCH_INPUT(int, bool&, std::unique_ptr<Displayer>&, std::unique_ptr<Mode>&);
+    bool SWITCH_INPUT(int, bool&, std::unique_ptr<Displayer>&, std::unique_ptr<Mode>&);
 
-    static void EventHandler();
+    void EventHandler();
+
+    std::unique_ptr<Handler> handler;
+public:
+    Play();
+
+    ~Play();
+
 private:
-    Play() = delete;
+    void PlayMusic(const char input);
 
-    ~Play() = delete;
+    void ChangeMode(const char input, std::unique_ptr<Mode>& mode);
 
 };
 

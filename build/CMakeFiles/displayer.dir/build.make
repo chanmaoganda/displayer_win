@@ -83,11 +83,26 @@ CMakeFiles/displayer.dir/src/Displayer.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/displayer.dir/src/Displayer.cpp.s"
 	E:\Avania\caches\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S E:\git_codes\displayer\src\Displayer.cpp -o CMakeFiles\displayer.dir\src\Displayer.cpp.s
 
+CMakeFiles/displayer.dir/src/Handler.cpp.obj: CMakeFiles/displayer.dir/flags.make
+CMakeFiles/displayer.dir/src/Handler.cpp.obj: CMakeFiles/displayer.dir/includes_CXX.rsp
+CMakeFiles/displayer.dir/src/Handler.cpp.obj: E:/git_codes/displayer/src/Handler.cpp
+CMakeFiles/displayer.dir/src/Handler.cpp.obj: CMakeFiles/displayer.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:\git_codes\displayer\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/displayer.dir/src/Handler.cpp.obj"
+	E:\Avania\caches\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/displayer.dir/src/Handler.cpp.obj -MF CMakeFiles\displayer.dir\src\Handler.cpp.obj.d -o CMakeFiles\displayer.dir\src\Handler.cpp.obj -c E:\git_codes\displayer\src\Handler.cpp
+
+CMakeFiles/displayer.dir/src/Handler.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/displayer.dir/src/Handler.cpp.i"
+	E:\Avania\caches\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E E:\git_codes\displayer\src\Handler.cpp > CMakeFiles\displayer.dir\src\Handler.cpp.i
+
+CMakeFiles/displayer.dir/src/Handler.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/displayer.dir/src/Handler.cpp.s"
+	E:\Avania\caches\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S E:\git_codes\displayer\src\Handler.cpp -o CMakeFiles\displayer.dir\src\Handler.cpp.s
+
 CMakeFiles/displayer.dir/src/Mode.cpp.obj: CMakeFiles/displayer.dir/flags.make
 CMakeFiles/displayer.dir/src/Mode.cpp.obj: CMakeFiles/displayer.dir/includes_CXX.rsp
 CMakeFiles/displayer.dir/src/Mode.cpp.obj: E:/git_codes/displayer/src/Mode.cpp
 CMakeFiles/displayer.dir/src/Mode.cpp.obj: CMakeFiles/displayer.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:\git_codes\displayer\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/displayer.dir/src/Mode.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:\git_codes\displayer\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/displayer.dir/src/Mode.cpp.obj"
 	E:\Avania\caches\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/displayer.dir/src/Mode.cpp.obj -MF CMakeFiles\displayer.dir\src\Mode.cpp.obj.d -o CMakeFiles\displayer.dir\src\Mode.cpp.obj -c E:\git_codes\displayer\src\Mode.cpp
 
 CMakeFiles/displayer.dir/src/Mode.cpp.i: cmake_force
@@ -102,7 +117,7 @@ CMakeFiles/displayer.dir/src/Play.cpp.obj: CMakeFiles/displayer.dir/flags.make
 CMakeFiles/displayer.dir/src/Play.cpp.obj: CMakeFiles/displayer.dir/includes_CXX.rsp
 CMakeFiles/displayer.dir/src/Play.cpp.obj: E:/git_codes/displayer/src/Play.cpp
 CMakeFiles/displayer.dir/src/Play.cpp.obj: CMakeFiles/displayer.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:\git_codes\displayer\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/displayer.dir/src/Play.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:\git_codes\displayer\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/displayer.dir/src/Play.cpp.obj"
 	E:\Avania\caches\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/displayer.dir/src/Play.cpp.obj -MF CMakeFiles\displayer.dir\src\Play.cpp.obj.d -o CMakeFiles\displayer.dir\src\Play.cpp.obj -c E:\git_codes\displayer\src\Play.cpp
 
 CMakeFiles/displayer.dir/src/Play.cpp.i: cmake_force
@@ -117,7 +132,7 @@ CMakeFiles/displayer.dir/src/main.cpp.obj: CMakeFiles/displayer.dir/flags.make
 CMakeFiles/displayer.dir/src/main.cpp.obj: CMakeFiles/displayer.dir/includes_CXX.rsp
 CMakeFiles/displayer.dir/src/main.cpp.obj: E:/git_codes/displayer/src/main.cpp
 CMakeFiles/displayer.dir/src/main.cpp.obj: CMakeFiles/displayer.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:\git_codes\displayer\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/displayer.dir/src/main.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:\git_codes\displayer\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/displayer.dir/src/main.cpp.obj"
 	E:\Avania\caches\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/displayer.dir/src/main.cpp.obj -MF CMakeFiles\displayer.dir\src\main.cpp.obj.d -o CMakeFiles\displayer.dir\src\main.cpp.obj -c E:\git_codes\displayer\src\main.cpp
 
 CMakeFiles/displayer.dir/src/main.cpp.i: cmake_force
@@ -132,7 +147,7 @@ CMakeFiles/displayer.dir/src/songs/PopSongs.cpp.obj: CMakeFiles/displayer.dir/fl
 CMakeFiles/displayer.dir/src/songs/PopSongs.cpp.obj: CMakeFiles/displayer.dir/includes_CXX.rsp
 CMakeFiles/displayer.dir/src/songs/PopSongs.cpp.obj: E:/git_codes/displayer/src/songs/PopSongs.cpp
 CMakeFiles/displayer.dir/src/songs/PopSongs.cpp.obj: CMakeFiles/displayer.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:\git_codes\displayer\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/displayer.dir/src/songs/PopSongs.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:\git_codes\displayer\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/displayer.dir/src/songs/PopSongs.cpp.obj"
 	E:\Avania\caches\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/displayer.dir/src/songs/PopSongs.cpp.obj -MF CMakeFiles\displayer.dir\src\songs\PopSongs.cpp.obj.d -o CMakeFiles\displayer.dir\src\songs\PopSongs.cpp.obj -c E:\git_codes\displayer\src\songs\PopSongs.cpp
 
 CMakeFiles/displayer.dir/src/songs/PopSongs.cpp.i: cmake_force
@@ -147,7 +162,7 @@ CMakeFiles/displayer.dir/src/songs/Song.cpp.obj: CMakeFiles/displayer.dir/flags.
 CMakeFiles/displayer.dir/src/songs/Song.cpp.obj: CMakeFiles/displayer.dir/includes_CXX.rsp
 CMakeFiles/displayer.dir/src/songs/Song.cpp.obj: E:/git_codes/displayer/src/songs/Song.cpp
 CMakeFiles/displayer.dir/src/songs/Song.cpp.obj: CMakeFiles/displayer.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:\git_codes\displayer\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/displayer.dir/src/songs/Song.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:\git_codes\displayer\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/displayer.dir/src/songs/Song.cpp.obj"
 	E:\Avania\caches\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/displayer.dir/src/songs/Song.cpp.obj -MF CMakeFiles\displayer.dir\src\songs\Song.cpp.obj.d -o CMakeFiles\displayer.dir\src\songs\Song.cpp.obj -c E:\git_codes\displayer\src\songs\Song.cpp
 
 CMakeFiles/displayer.dir/src/songs/Song.cpp.i: cmake_force
@@ -162,7 +177,7 @@ CMakeFiles/displayer.dir/src/ui/DisplayUI.cpp.obj: CMakeFiles/displayer.dir/flag
 CMakeFiles/displayer.dir/src/ui/DisplayUI.cpp.obj: CMakeFiles/displayer.dir/includes_CXX.rsp
 CMakeFiles/displayer.dir/src/ui/DisplayUI.cpp.obj: E:/git_codes/displayer/src/ui/DisplayUI.cpp
 CMakeFiles/displayer.dir/src/ui/DisplayUI.cpp.obj: CMakeFiles/displayer.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:\git_codes\displayer\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/displayer.dir/src/ui/DisplayUI.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:\git_codes\displayer\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/displayer.dir/src/ui/DisplayUI.cpp.obj"
 	E:\Avania\caches\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/displayer.dir/src/ui/DisplayUI.cpp.obj -MF CMakeFiles\displayer.dir\src\ui\DisplayUI.cpp.obj.d -o CMakeFiles\displayer.dir\src\ui\DisplayUI.cpp.obj -c E:\git_codes\displayer\src\ui\DisplayUI.cpp
 
 CMakeFiles/displayer.dir/src/ui/DisplayUI.cpp.i: cmake_force
@@ -177,7 +192,7 @@ CMakeFiles/displayer.dir/src/download/DownloadURL.cpp.obj: CMakeFiles/displayer.
 CMakeFiles/displayer.dir/src/download/DownloadURL.cpp.obj: CMakeFiles/displayer.dir/includes_CXX.rsp
 CMakeFiles/displayer.dir/src/download/DownloadURL.cpp.obj: E:/git_codes/displayer/src/download/DownloadURL.cpp
 CMakeFiles/displayer.dir/src/download/DownloadURL.cpp.obj: CMakeFiles/displayer.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:\git_codes\displayer\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/displayer.dir/src/download/DownloadURL.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:\git_codes\displayer\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/displayer.dir/src/download/DownloadURL.cpp.obj"
 	E:\Avania\caches\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/displayer.dir/src/download/DownloadURL.cpp.obj -MF CMakeFiles\displayer.dir\src\download\DownloadURL.cpp.obj.d -o CMakeFiles\displayer.dir\src\download\DownloadURL.cpp.obj -c E:\git_codes\displayer\src\download\DownloadURL.cpp
 
 CMakeFiles/displayer.dir/src/download/DownloadURL.cpp.i: cmake_force
@@ -191,6 +206,7 @@ CMakeFiles/displayer.dir/src/download/DownloadURL.cpp.s: cmake_force
 # Object files for target displayer
 displayer_OBJECTS = \
 "CMakeFiles/displayer.dir/src/Displayer.cpp.obj" \
+"CMakeFiles/displayer.dir/src/Handler.cpp.obj" \
 "CMakeFiles/displayer.dir/src/Mode.cpp.obj" \
 "CMakeFiles/displayer.dir/src/Play.cpp.obj" \
 "CMakeFiles/displayer.dir/src/main.cpp.obj" \
@@ -203,6 +219,7 @@ displayer_OBJECTS = \
 displayer_EXTERNAL_OBJECTS =
 
 displayer.exe: CMakeFiles/displayer.dir/src/Displayer.cpp.obj
+displayer.exe: CMakeFiles/displayer.dir/src/Handler.cpp.obj
 displayer.exe: CMakeFiles/displayer.dir/src/Mode.cpp.obj
 displayer.exe: CMakeFiles/displayer.dir/src/Play.cpp.obj
 displayer.exe: CMakeFiles/displayer.dir/src/main.cpp.obj
@@ -215,7 +232,7 @@ displayer.exe: CMakeFiles/displayer.dir/compiler_depend.ts
 displayer.exe: CMakeFiles/displayer.dir/linkLibs.rsp
 displayer.exe: CMakeFiles/displayer.dir/objects1.rsp
 displayer.exe: CMakeFiles/displayer.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=E:\git_codes\displayer\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Linking CXX executable displayer.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=E:\git_codes\displayer\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Linking CXX executable displayer.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\displayer.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

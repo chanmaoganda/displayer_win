@@ -421,4 +421,5 @@ CMakeFiles/displayer.dir/src/Play.cpp.obj: \
  E:/Avania/caches/mingw64/x86_64-w64-mingw32/include/float.h \
  E:/git_codes/displayer/include/ui/DIsplayUI.h \
  E:/git_codes/displayer/include/Mode.h \
- E:/git_codes/displayer/include/mode_states/PlayState.h
+ E:/git_codes/displayer/include/mode_states/PlayState.h \
+ E:/git_codes/displayer/include/Handler.h

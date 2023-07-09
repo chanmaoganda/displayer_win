@@ -1,5 +1,15 @@
 #include "..\include\Play.h"
 
+Play::Play()
+{
+    handler.reset(new Handler());
+}
+
+Play::~Play()
+{
+
+}
+
 void Play::Start()      //static method
 {
     bool flag = true;
@@ -18,31 +28,14 @@ void Play::Start()      //static method
         DisplayUI::Menu_UI();
 
         DisplayUI::SpacesOutput() << "\t     TEXT YOUR CHOICE" << "\n";
-
-        std::getline(std::cin, INPUT);
-
-        try
-        {
-            if(INPUT.length() != 1)
-            {    
-                throw 100;
-            }
-        }
-        catch(const char* err)
-        {
-            std::cerr << err << '\n';
-            break;
-        }
-        catch(int num_err)
-        {
-            std::cerr << num_err << '\n';
-        }
+        handler->BuffHandler(INPUT, std::cin);
         input_number = INPUT[0] - '0';
         
-        system("clear");
-        SWITCH_INPUT(input_number, flag, display, mode);
+        flag = SWITCH_INPUT(input_number, flag, display, mode);
     }
 }
+
+
 
 bool Play::SWITCH_INPUT(int input, bool& flag, std::unique_ptr<Displayer>& display, std::unique_ptr<Mode> &mode)
 {
@@ -52,46 +45,30 @@ bool Play::SWITCH_INPUT(int input, bool& flag, std::unique_ptr<Displayer>& displ
     switch(input)
     {
         case 0:
+            system("clear");
             flag = false;
             break;
         case 1:
+            system("clear");
             DisplayUI::PlayMusic_UI();
             std::cin >> choice;
-            switch(choice)
-            {
-                case '1':
-                    PlayAudio(new Song(new std::string("jiang_nan.mp3")), 5);
-                    break;
-                case '2':
-                    
-                    break;               
-                case '3':
-                    break;
-                case '4':
-                    break;                   
-            }
+            getchar();
+            PlayMusic(choice);
             break;
         case 2:
+            system("clear");
             DisplayUI::Mode_UI();
             std::cin >> choice;
-            switch(choice)
-            {
-                case '1':
-                    mode->ChangeMode(state::PlayState::SEQUENCE);
-                    break;
-                case '2':
-                    mode->ChangeMode(state::PlayState::RANDOM);
-                    break;               
-                case '3':
-                    mode->ChangeMode(state::PlayState::LOOP);
-                    break;
-                case '4':
-                    mode->ChangeMode(state::PlayState::CLEAR);
-                    break;                   
-            }
+            getchar();
+            ChangeMode(choice, mode);
+            break;
+        case 3:
+            mode->ChangeMode(state::PlayState::CLEAR);
+            std::cout << "\t\t\t\t\t      mode has been changed to Clear \n";
+            Sleep(1200);
             break;
         case 4:
-            
+            system("clear");
             std::getline(std::cin, *song_name);
             song = new DerivedSongs::PopSongs(new std::string(*song_name));
             display->AddSongs(song);
@@ -99,15 +76,58 @@ bool Play::SWITCH_INPUT(int input, bool& flag, std::unique_ptr<Displayer>& displ
             std::cout << "playing music\n";
             system("pause");
             system("clear");
-            //dubug in the check point
-            // display->ClearList();
             break;
     }
 
-    // DisplayUI::Exit_UI();
+    /*
+    get the enter buff to avoid the Handler to get the enter and
+    thus get the real buff
+    */
     
     Sleep(1500);
     return flag;
+}
+
+//private
+void Play::PlayMusic(const char input)
+{
+    switch(input)
+    {
+        case '1':
+            PlayAudio(new Song(new std::string("jiang_nan.mp3")), 5);
+            break;
+        case '2':
+            
+            break;               
+        case '3':
+            break;
+        case '4':
+            break;                   
+    }
+}
+//private
+void Play::ChangeMode(const char input, std::unique_ptr<Mode>& mode)
+{
+    switch(input)
+    {
+        case '1':
+            mode->ChangeMode(state::PlayState::SEQUENCE);
+            std::cout << "\t\t\t\t\t     Mode has been changed to Sequence";
+            break;
+        case '2':
+            mode->ChangeMode(state::PlayState::RANDOM);
+            std::cout << "\t\t\t\t\t     Mode has been changed to Ramdom";
+            break;               
+        case '3':
+            mode->ChangeMode(state::PlayState::LOOP);
+            std::cout << "\t\t\t\t\t     Mode has been changed to Loop";
+            break;
+        case '4':
+            mode->ChangeMode(state::PlayState::CLEAR);
+            std::cout << "\t\t\t\t\t     Mode has been changed to Clear";
+            break;                   
+    }
+    Sleep(1200);
 }
 
 Song* Play::PlayAudio(Song* song, size_t seconds)

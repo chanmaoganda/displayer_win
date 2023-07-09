@@ -152,6 +152,30 @@ src/Displayer.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\displayer.dir\build.make CMakeFiles/displayer.dir/src/Displayer.cpp.s
 .PHONY : src/Displayer.cpp.s
 
+src/Handler.obj: src/Handler.cpp.obj
+.PHONY : src/Handler.obj
+
+# target to build an object file
+src/Handler.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\displayer.dir\build.make CMakeFiles/displayer.dir/src/Handler.cpp.obj
+.PHONY : src/Handler.cpp.obj
+
+src/Handler.i: src/Handler.cpp.i
+.PHONY : src/Handler.i
+
+# target to preprocess a source file
+src/Handler.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\displayer.dir\build.make CMakeFiles/displayer.dir/src/Handler.cpp.i
+.PHONY : src/Handler.cpp.i
+
+src/Handler.s: src/Handler.cpp.s
+.PHONY : src/Handler.s
+
+# target to generate assembly for a file
+src/Handler.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\displayer.dir\build.make CMakeFiles/displayer.dir/src/Handler.cpp.s
+.PHONY : src/Handler.cpp.s
+
 src/Mode.obj: src/Mode.cpp.obj
 .PHONY : src/Mode.obj
 
@@ -332,6 +356,9 @@ help:
 	@echo ... src/Displayer.obj
 	@echo ... src/Displayer.i
 	@echo ... src/Displayer.s
+	@echo ... src/Handler.obj
+	@echo ... src/Handler.i
+	@echo ... src/Handler.s
 	@echo ... src/Mode.obj
 	@echo ... src/Mode.i
 	@echo ... src/Mode.s
