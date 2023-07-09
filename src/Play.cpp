@@ -31,7 +31,7 @@ void Play::Start()      //static method
         handler->BuffHandler(INPUT, std::cin);
         input_number = INPUT[0] - '0';
         
-        flag = SWITCH_INPUT(input_number, flag, display, mode);
+        SWITCH_INPUT(input_number, flag, display, mode);
     }
 }
 
@@ -88,7 +88,6 @@ bool Play::SWITCH_INPUT(int input, bool& flag, std::unique_ptr<Displayer>& displ
     return flag;
 }
 
-//private
 void Play::PlayMusic(const char input)
 {
     switch(input)
@@ -105,7 +104,7 @@ void Play::PlayMusic(const char input)
             break;                   
     }
 }
-//private
+
 void Play::ChangeMode(const char input, std::unique_ptr<Mode>& mode)
 {
     switch(input)

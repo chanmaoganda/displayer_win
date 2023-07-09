@@ -3,6 +3,8 @@
 
 #include <iostream>
 
+/// @brief UI stored here, Menu / Start / Mode / Play_Music / Exit
+/// @author Avania 
 class DisplayUI
 {
 public:

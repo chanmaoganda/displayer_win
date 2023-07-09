@@ -5,12 +5,18 @@
 #include <memory>
 #include<vector>
 
+/// @brief main class to play music
+/// @author Avania
 class Displayer
 {
 public:
+    /// constructer
     Displayer();
 
-    Displayer(int);
+    /// @brief constructer
+    /// @param int 
+    /// @author Avania  
+    Displayer(int __MaxStackSize);
 
     ~Displayer();
 public:
@@ -40,6 +46,7 @@ private:
     // std::unique_ptr<std::vector<Song*>> list;
     struct Implement;
 
+    /// @brief pointer to elments in the private struct
     std::unique_ptr<Implement> Implementer;
     
 };

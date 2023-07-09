@@ -4,7 +4,8 @@
 #include <string>
 #include <iostream>
 
-
+/// @brief handle the input buffer overflow
+/// @author Avania
 class Handler
 {
 public:
@@ -12,7 +13,10 @@ public:
 
     ~Handler();
 public:
-
+    /// @brief 
+    /// @param buffer input things stored in buffer
+    /// @param ISTREAM std::cin usually
+    /// @return return true if buffer size is 1, which means valid input to fit UI
     bool BuffHandler(std::string& buffer, std::istream& ISTREAM);
 private:
 

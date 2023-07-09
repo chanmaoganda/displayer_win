@@ -3,6 +3,9 @@
 
 #include <string>
 #include <memory>
+
+/// @brief base class for different type of songs
+/// @author Avania
 class Song
 {
 public:
