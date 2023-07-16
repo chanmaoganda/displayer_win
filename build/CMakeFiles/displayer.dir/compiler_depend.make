@@ -1421,7 +1421,8 @@ CMakeFiles/displayer.dir/src/main.cpp.obj: E:/git_codes/displayer/src/main.cpp \
   E:/git_codes/displayer/include/mode_states/PlayState.h \
   E:/git_codes/displayer/include/songs/PopSongs.h \
   E:/git_codes/displayer/include/songs/Song.h \
-  E:/git_codes/displayer/include/ui/DIsplayUI.h
+  E:/git_codes/displayer/include/ui/DIsplayUI.h \
+  E:/git_codes/displayer/test/include/TestPlay.h
 
 CMakeFiles/displayer.dir/src/songs/PopSongs.cpp.obj: E:/git_codes/displayer/src/songs/PopSongs.cpp \
   E:/Avania/caches/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/backward/auto_ptr.h \
@@ -1850,6 +1851,9 @@ CMakeFiles/displayer.dir/src/ui/DisplayUI.cpp.obj: E:/git_codes/displayer/src/ui
   E:/Avania/caches/mingw64/x86_64-w64-mingw32/include/wchar.h \
   E:/Avania/caches/mingw64/x86_64-w64-mingw32/include/wctype.h \
   E:/git_codes/displayer/include/ui/DIsplayUI.h
+
+CMakeFiles/displayer.dir/test/src/TestPlay.cpp.obj: E:/git_codes/displayer/test/src/TestPlay.cpp \
+  E:/git_codes/displayer/test/include/TestPlay.h
 
 displayer.exe: CMakeFiles/displayer.dir/objects.a \
   E:/Avania/caches/mingw64/x86_64-w64-mingw32/lib/crt2.o \
@@ -2503,6 +2507,8 @@ E:/Avania/caches/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/immintrin.h:
 
 E:/Avania/caches/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/lzcntintrin.h:
 
+E:/git_codes/displayer/test/include/TestPlay.h:
+
 E:/Avania/caches/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/mm3dnow.h:
 
 E:/Avania/caches/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/movdirintrin.h:
@@ -2750,6 +2756,8 @@ E:/git_codes/displayer/include/download/DownloadURL.h:
 E:/git_codes/displayer/src/main.cpp:
 
 E:/git_codes/displayer/src/songs/PopSongs.cpp:
+
+E:/git_codes/displayer/test/src/TestPlay.cpp:
 
 CMakeFiles/displayer.dir/objects.a:
 

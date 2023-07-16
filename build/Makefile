@@ -344,6 +344,30 @@ src/ui/DisplayUI.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\displayer.dir\build.make CMakeFiles/displayer.dir/src/ui/DisplayUI.cpp.s
 .PHONY : src/ui/DisplayUI.cpp.s
 
+test/src/TestPlay.obj: test/src/TestPlay.cpp.obj
+.PHONY : test/src/TestPlay.obj
+
+# target to build an object file
+test/src/TestPlay.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\displayer.dir\build.make CMakeFiles/displayer.dir/test/src/TestPlay.cpp.obj
+.PHONY : test/src/TestPlay.cpp.obj
+
+test/src/TestPlay.i: test/src/TestPlay.cpp.i
+.PHONY : test/src/TestPlay.i
+
+# target to preprocess a source file
+test/src/TestPlay.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\displayer.dir\build.make CMakeFiles/displayer.dir/test/src/TestPlay.cpp.i
+.PHONY : test/src/TestPlay.cpp.i
+
+test/src/TestPlay.s: test/src/TestPlay.cpp.s
+.PHONY : test/src/TestPlay.s
+
+# target to generate assembly for a file
+test/src/TestPlay.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\displayer.dir\build.make CMakeFiles/displayer.dir/test/src/TestPlay.cpp.s
+.PHONY : test/src/TestPlay.cpp.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -380,6 +404,9 @@ help:
 	@echo ... src/ui/DisplayUI.obj
 	@echo ... src/ui/DisplayUI.i
 	@echo ... src/ui/DisplayUI.s
+	@echo ... test/src/TestPlay.obj
+	@echo ... test/src/TestPlay.i
+	@echo ... test/src/TestPlay.s
 .PHONY : help
 
 

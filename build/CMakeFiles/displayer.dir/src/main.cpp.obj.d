@@ -422,4 +422,5 @@ CMakeFiles/displayer.dir/src/main.cpp.obj: \
  E:/git_codes/displayer/include/ui/DIsplayUI.h \
  E:/git_codes/displayer/include/Mode.h \
  E:/git_codes/displayer/include/mode_states/PlayState.h \
- E:/git_codes/displayer/include/Handler.h
+ E:/git_codes/displayer/include/Handler.h \
+ E:/git_codes/displayer/test/include/TestPlay.h

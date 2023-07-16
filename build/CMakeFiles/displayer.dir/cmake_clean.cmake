@@ -17,6 +17,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/displayer.dir/src/songs/Song.cpp.obj.d"
   "CMakeFiles/displayer.dir/src/ui/DisplayUI.cpp.obj"
   "CMakeFiles/displayer.dir/src/ui/DisplayUI.cpp.obj.d"
+  "CMakeFiles/displayer.dir/test/src/TestPlay.cpp.obj"
+  "CMakeFiles/displayer.dir/test/src/TestPlay.cpp.obj.d"
   "CMakeFiles/displayer.dir/link.d"
   "displayer.exe"
   "displayer.exe.manifest"

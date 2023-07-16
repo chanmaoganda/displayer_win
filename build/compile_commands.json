@@ -52,5 +52,11 @@
   "command": "E:\\Avania\\caches\\mingw64\\bin\\g++.exe  @CMakeFiles/displayer.dir/includes_CXX.rsp -g -o CMakeFiles\\displayer.dir\\src\\download\\DownloadURL.cpp.obj -c E:\\git_codes\\displayer\\src\\download\\DownloadURL.cpp",
   "file": "E:/git_codes/displayer/src/download/DownloadURL.cpp",
   "output": "CMakeFiles/displayer.dir/src/download/DownloadURL.cpp.obj"
+},
+{
+  "directory": "E:/git_codes/displayer/build",
+  "command": "E:\\Avania\\caches\\mingw64\\bin\\g++.exe  @CMakeFiles/displayer.dir/includes_CXX.rsp -g -o CMakeFiles\\displayer.dir\\test\\src\\TestPlay.cpp.obj -c E:\\git_codes\\displayer\\test\\src\\TestPlay.cpp",
+  "file": "E:/git_codes/displayer/test/src/TestPlay.cpp",
+  "output": "CMakeFiles/displayer.dir/test/src/TestPlay.cpp.obj"
 }
 ]

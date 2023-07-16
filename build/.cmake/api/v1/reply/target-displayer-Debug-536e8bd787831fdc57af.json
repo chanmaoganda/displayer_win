@@ -29,13 +29,13 @@
 			{
 				"command" : 0,
 				"file" : 0,
-				"line" : 23,
+				"line" : 26,
 				"parent" : 0
 			},
 			{
 				"command" : 1,
 				"file" : 0,
-				"line" : 25,
+				"line" : 28,
 				"parent" : 0
 			},
 			{
@@ -66,6 +66,12 @@
 				"command" : 2,
 				"file" : 0,
 				"line" : 7,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 8,
 				"parent" : 0
 			}
 		]
@@ -100,6 +106,10 @@
 				{
 					"backtrace" : 7,
 					"path" : "E:/git_codes/displayer/include/download"
+				},
+				{
+					"backtrace" : 8,
+					"path" : "E:/git_codes/displayer/test/include"
 				}
 			],
 			"language" : "CXX",
@@ -113,7 +123,8 @@
 				5,
 				6,
 				7,
-				8
+				8,
+				9
 			]
 		}
 	],
@@ -167,7 +178,8 @@
 				5,
 				6,
 				7,
-				8
+				8,
+				9
 			]
 		}
 	],
@@ -225,6 +237,12 @@
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
 			"path" : "src/download/DownloadURL.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "test/src/TestPlay.cpp",
 			"sourceGroupIndex" : 0
 		}
 	],

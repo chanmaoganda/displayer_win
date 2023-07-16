@@ -10,7 +10,6 @@ void Mode::ClearSettings()
     std::string IsToBeClear;
     std::cout << "you really gonna clear settings?(y/n)" << "\n";
     std::cin >> IsToBeClear;
-
     try
     {
         if(IsToBeClear.length() != 1)

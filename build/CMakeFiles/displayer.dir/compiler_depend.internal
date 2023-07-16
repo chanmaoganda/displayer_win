@@ -1428,6 +1428,7 @@ CMakeFiles/displayer.dir/src/main.cpp.obj
  E:/git_codes/displayer/include/songs/PopSongs.h
  E:/git_codes/displayer/include/songs/Song.h
  E:/git_codes/displayer/include/ui/DIsplayUI.h
+ E:/git_codes/displayer/test/include/TestPlay.h
 
 CMakeFiles/displayer.dir/src/songs/PopSongs.cpp.obj
  E:/git_codes/displayer/src/songs/PopSongs.cpp
@@ -1859,6 +1860,10 @@ CMakeFiles/displayer.dir/src/ui/DisplayUI.cpp.obj
  E:/Avania/caches/mingw64/x86_64-w64-mingw32/include/wchar.h
  E:/Avania/caches/mingw64/x86_64-w64-mingw32/include/wctype.h
  E:/git_codes/displayer/include/ui/DIsplayUI.h
+
+CMakeFiles/displayer.dir/test/src/TestPlay.cpp.obj
+ E:/git_codes/displayer/test/src/TestPlay.cpp
+ E:/git_codes/displayer/test/include/TestPlay.h
 
 displayer.exe
  E:/git_codes/displayer/build/CMakeFiles/displayer.dir/objects.a

@@ -17,6 +17,7 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "E:/git_codes/displayer/src/songs/PopSongs.cpp" "CMakeFiles/displayer.dir/src/songs/PopSongs.cpp.obj" "gcc" "CMakeFiles/displayer.dir/src/songs/PopSongs.cpp.obj.d"
   "E:/git_codes/displayer/src/songs/Song.cpp" "CMakeFiles/displayer.dir/src/songs/Song.cpp.obj" "gcc" "CMakeFiles/displayer.dir/src/songs/Song.cpp.obj.d"
   "E:/git_codes/displayer/src/ui/DisplayUI.cpp" "CMakeFiles/displayer.dir/src/ui/DisplayUI.cpp.obj" "gcc" "CMakeFiles/displayer.dir/src/ui/DisplayUI.cpp.obj.d"
+  "E:/git_codes/displayer/test/src/TestPlay.cpp" "CMakeFiles/displayer.dir/test/src/TestPlay.cpp.obj" "gcc" "CMakeFiles/displayer.dir/test/src/TestPlay.cpp.obj.d"
   "" "displayer.exe" "gcc" "CMakeFiles/displayer.dir/link.d"
   )
 
