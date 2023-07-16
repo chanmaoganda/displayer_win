@@ -1,5 +1,5 @@
-#ifndef PLAY_H
-#define PLAY_H
+#ifndef __PLAY_H__
+#define __PLAY_H__
 
 #include ".\Displayer.h"
 #include ".\songs\PopSongs.h" 

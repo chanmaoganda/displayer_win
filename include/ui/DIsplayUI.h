@@ -1,5 +1,5 @@
-#ifndef DISPLAYUI_H
-#define DISPLAYUI_H
+#ifndef __DISPLAYUI_H__
+#define __DISPLAYUI_H__
 
 #include <iostream>
 

@@ -1,5 +1,5 @@
-#ifndef DOWNLOAD_URL_H
-#define DOWNLOAD_URL_H
+#ifndef __DOWNLOAD_URL_H__
+#define __DOWNLOAD_URL_H__
 
 #include <iostream>
 /// @brief download songs online via a url

@@ -1,5 +1,5 @@
-#ifndef POP_SONGS_H
-#define POP_SONGS_H
+#ifndef __POP_SONGS_H__
+#define __POP_SONGS_H__
 
 #include ".\Song.h"
 /// @brief a namespace to notice author derived classes that were written

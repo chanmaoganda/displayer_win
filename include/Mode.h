@@ -1,5 +1,5 @@
-#ifndef MODE_H
-#define MODE_H
+#ifndef __MODE_H__
+#define __MODE_H__
 
 #include ".\mode_states\PlayState.h"
 #include <iostream>

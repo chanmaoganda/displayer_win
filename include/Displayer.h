@@ -1,5 +1,5 @@
-#ifndef DISPLAYER_H
-#define DISPLAYER_H
+#ifndef __DISPLAYER_H__
+#define __DISPLAYER_H__
 
 #include ".\songs\Song.h"
 #include <memory>

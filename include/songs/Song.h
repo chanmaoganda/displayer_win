@@ -1,5 +1,5 @@
-#ifndef SONGS_H
-#define SONGS_H
+#ifndef __SONGS_H__
+#define __SONGS_H__
 
 #include <string>
 #include <memory>

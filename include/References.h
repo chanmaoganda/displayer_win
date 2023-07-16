@@ -1,5 +1,5 @@
-#ifndef REFERENCES_H
-#define REFERENCES_H
+#ifndef __REFERENCES_H__
+#define __REFERENCES_H__
 
 #include<windows.h>
 #include<mmsystem.h>

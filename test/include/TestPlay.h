@@ -1,5 +1,5 @@
-#ifndef TESTPLAY_H
-#define TESTPLAY_H
+#ifndef __TESTPLAY_H__
+#define __TESTPLAY_H__
 /*
 * macro may lead unmet problems, such as 
 * "when marco unfolds, operarands may not match"
@@ -8,12 +8,11 @@
 * then operarands do not match
 */
 
-#define ASSERT_TRUE(Func, Expectation)\
-    Func == Expectation\
+#define ASSERT_TRUE(Func, Expectation)  \
+    bool(Func == Expectation)               \
 
-
-#define EXPECT_TRUE(Func, Expectation)\
-    Func == Expectation\
+#define EXPECT_TRUE(Func, Expectation)  \
+    bool(Func == Expectation)               \
 
 class TestPLay
 {
