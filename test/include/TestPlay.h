@@ -8,10 +8,10 @@
 * then operarands do not match
 */
 
-#define ASSERT_TRUE(Func, Expectation)  \
+#define ASSERT_TRUE(Func, Expectation)      \
     bool(Func == Expectation)               \
 
-#define EXPECT_TRUE(Func, Expectation)  \
+#define EXPECT_TRUE(Func, Expectation)      \
     bool(Func == Expectation)               \
 
 class TestPLay
